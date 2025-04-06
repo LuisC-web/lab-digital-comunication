@@ -1,0 +1,10 @@
+C:\Users\JoSracu\Desktop\Comunicaciones_Digitales\Comunicaciones Digitales\Comunicaciones Digitales\Digitales\Lab1_p1.cydsn\Lab1_p1.cyprj|c8f746f5-6f32-4a2a-b231-86fd6dc0ec28
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|5e7b300a-49e2-467f-abc1-fa3ada2d64bd
+C:\Users\JoSracu\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|8b0481b8-3772-46df-b774-24d998d54ebe
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a53dc07c-0809-44f7-8f48-441b77af1e41
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|1483abb2-c66f-49cf-85b3-54b13bc9b07b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|34ff5cc3-5b0b-4b2a-9aa0-2b64c41b69d4
+C:\Users\JoSracu\Desktop\Comunicaciones_Digitales\Comunicaciones Digitales\Comunicaciones Digitales\Digitales\Lab1.2.cydsn\Lab1.2.cyprj|184e4d14-c286-4bc5-b100-7c98715bc7b7
+C:\Users\JoSracu\Desktop\Comunicaciones_Digitales\Comunicaciones Digitales\Comunicaciones Digitales\Digitales\Prueba DAC.cydsn\Prueba DAC.cyprj|81cf9fe9-fe17-44be-8e2f-ce055d89016e
+C:\Users\JoSracu\Desktop\Comunicaciones_Digitales\Comunicaciones Digitales\Comunicaciones Digitales\Digitales\DAC_2.cydsn\DAC_2.cyprj|a1ce7ecb-1eb0-4690-b6f1-1eae44cbf36e
+C:\Users\JoSracu\Desktop\Comunicaciones_Digitales\Comunicaciones Digitales\Comunicaciones Digitales\Digitales\Lab1.2_Copy_01.cydsn\Lab1.2_Copy_01.cyprj|a5858736-4b4d-4b4b-b82c-e2e9be9df03b

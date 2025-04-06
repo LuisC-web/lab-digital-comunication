@@ -1,0 +1,1415 @@
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"VDAC8_2.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.VDAC8_2_Enable,"ax",%progbits
+  20              		.align	2
+  21              		.global	VDAC8_2_Enable
+  22              		.thumb
+  23              		.thumb_func
+  24              		.type	VDAC8_2_Enable, %function
+  25              	VDAC8_2_Enable:
+  26              	.LFB1:
+  27              		.file 1 "Generated_Source\\PSoC5\\VDAC8_2.c"
+   1:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+   2:Generated_Source\PSoC5/VDAC8_2.c **** * File Name: VDAC8_2.c  
+   3:Generated_Source\PSoC5/VDAC8_2.c **** * Version 1.90
+   4:Generated_Source\PSoC5/VDAC8_2.c **** *
+   5:Generated_Source\PSoC5/VDAC8_2.c **** * Description:
+   6:Generated_Source\PSoC5/VDAC8_2.c **** *  This file provides the source code to the API for the 8-bit Voltage DAC 
+   7:Generated_Source\PSoC5/VDAC8_2.c **** *  (VDAC8) User Module.
+   8:Generated_Source\PSoC5/VDAC8_2.c **** *
+   9:Generated_Source\PSoC5/VDAC8_2.c **** * Note:
+  10:Generated_Source\PSoC5/VDAC8_2.c **** *  Any unusual or non-standard behavior should be noted here. Other-
+  11:Generated_Source\PSoC5/VDAC8_2.c **** *  wise, this section should remain blank.
+  12:Generated_Source\PSoC5/VDAC8_2.c **** *
+  13:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+  14:Generated_Source\PSoC5/VDAC8_2.c **** * Copyright 2008-2012, Cypress Semiconductor Corporation.  All rights reserved.
+  15:Generated_Source\PSoC5/VDAC8_2.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  16:Generated_Source\PSoC5/VDAC8_2.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  17:Generated_Source\PSoC5/VDAC8_2.c **** * the software package with which this file was provided.
+  18:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+  19:Generated_Source\PSoC5/VDAC8_2.c **** 
+  20:Generated_Source\PSoC5/VDAC8_2.c **** #include "cytypes.h"
+  21:Generated_Source\PSoC5/VDAC8_2.c **** #include "VDAC8_2.h"
+  22:Generated_Source\PSoC5/VDAC8_2.c **** 
+  23:Generated_Source\PSoC5/VDAC8_2.c **** #if (CY_PSOC5A)
+  24:Generated_Source\PSoC5/VDAC8_2.c **** #include <CyLib.h>
+  25:Generated_Source\PSoC5/VDAC8_2.c **** #endif /* CY_PSOC5A */
+  26:Generated_Source\PSoC5/VDAC8_2.c **** 
+  27:Generated_Source\PSoC5/VDAC8_2.c **** uint8 VDAC8_2_initVar = 0u;
+  28:Generated_Source\PSoC5/VDAC8_2.c **** 
+  29:Generated_Source\PSoC5/VDAC8_2.c **** #if (CY_PSOC5A)
+  30:Generated_Source\PSoC5/VDAC8_2.c ****     static uint8 VDAC8_2_restoreVal = 0u;
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 2
+
+
+  31:Generated_Source\PSoC5/VDAC8_2.c **** #endif /* CY_PSOC5A */
+  32:Generated_Source\PSoC5/VDAC8_2.c **** 
+  33:Generated_Source\PSoC5/VDAC8_2.c **** #if (CY_PSOC5A)
+  34:Generated_Source\PSoC5/VDAC8_2.c ****     static VDAC8_2_backupStruct VDAC8_2_backup;
+  35:Generated_Source\PSoC5/VDAC8_2.c **** #endif /* CY_PSOC5A */
+  36:Generated_Source\PSoC5/VDAC8_2.c **** 
+  37:Generated_Source\PSoC5/VDAC8_2.c **** 
+  38:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+  39:Generated_Source\PSoC5/VDAC8_2.c **** * Function Name: VDAC8_2_Init
+  40:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+  41:Generated_Source\PSoC5/VDAC8_2.c **** * Summary:
+  42:Generated_Source\PSoC5/VDAC8_2.c **** *  Initialize to the schematic state.
+  43:Generated_Source\PSoC5/VDAC8_2.c **** * 
+  44:Generated_Source\PSoC5/VDAC8_2.c **** * Parameters:
+  45:Generated_Source\PSoC5/VDAC8_2.c **** *  void:
+  46:Generated_Source\PSoC5/VDAC8_2.c **** *
+  47:Generated_Source\PSoC5/VDAC8_2.c **** * Return:
+  48:Generated_Source\PSoC5/VDAC8_2.c **** *  void
+  49:Generated_Source\PSoC5/VDAC8_2.c **** *
+  50:Generated_Source\PSoC5/VDAC8_2.c **** * Theory:
+  51:Generated_Source\PSoC5/VDAC8_2.c **** *
+  52:Generated_Source\PSoC5/VDAC8_2.c **** * Side Effects:
+  53:Generated_Source\PSoC5/VDAC8_2.c **** *
+  54:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+  55:Generated_Source\PSoC5/VDAC8_2.c **** void VDAC8_2_Init(void) 
+  56:Generated_Source\PSoC5/VDAC8_2.c **** {
+  57:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_CR0 = (VDAC8_2_MODE_V );
+  58:Generated_Source\PSoC5/VDAC8_2.c **** 
+  59:Generated_Source\PSoC5/VDAC8_2.c ****     /* Set default data source */
+  60:Generated_Source\PSoC5/VDAC8_2.c ****     #if(VDAC8_2_DEFAULT_DATA_SRC != 0 )
+  61:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_CR1 = (VDAC8_2_DEFAULT_CNTL | VDAC8_2_DACBUS_ENABLE) ;
+  62:Generated_Source\PSoC5/VDAC8_2.c ****     #else
+  63:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_CR1 = (VDAC8_2_DEFAULT_CNTL | VDAC8_2_DACBUS_DISABLE) ;
+  64:Generated_Source\PSoC5/VDAC8_2.c ****     #endif /* (VDAC8_2_DEFAULT_DATA_SRC != 0 ) */
+  65:Generated_Source\PSoC5/VDAC8_2.c **** 
+  66:Generated_Source\PSoC5/VDAC8_2.c ****     /* Set default strobe mode */
+  67:Generated_Source\PSoC5/VDAC8_2.c ****     #if(VDAC8_2_DEFAULT_STRB != 0)
+  68:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_Strobe |= VDAC8_2_STRB_EN ;
+  69:Generated_Source\PSoC5/VDAC8_2.c ****     #endif/* (VDAC8_2_DEFAULT_STRB != 0) */
+  70:Generated_Source\PSoC5/VDAC8_2.c **** 
+  71:Generated_Source\PSoC5/VDAC8_2.c ****     /* Set default range */
+  72:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_SetRange(VDAC8_2_DEFAULT_RANGE); 
+  73:Generated_Source\PSoC5/VDAC8_2.c **** 
+  74:Generated_Source\PSoC5/VDAC8_2.c ****     /* Set default speed */
+  75:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_SetSpeed(VDAC8_2_DEFAULT_SPEED);
+  76:Generated_Source\PSoC5/VDAC8_2.c **** }
+  77:Generated_Source\PSoC5/VDAC8_2.c **** 
+  78:Generated_Source\PSoC5/VDAC8_2.c **** 
+  79:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+  80:Generated_Source\PSoC5/VDAC8_2.c **** * Function Name: VDAC8_2_Enable
+  81:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+  82:Generated_Source\PSoC5/VDAC8_2.c **** * Summary:
+  83:Generated_Source\PSoC5/VDAC8_2.c **** *  Enable the VDAC8
+  84:Generated_Source\PSoC5/VDAC8_2.c **** * 
+  85:Generated_Source\PSoC5/VDAC8_2.c **** * Parameters:
+  86:Generated_Source\PSoC5/VDAC8_2.c **** *  void
+  87:Generated_Source\PSoC5/VDAC8_2.c **** *
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 3
+
+
+  88:Generated_Source\PSoC5/VDAC8_2.c **** * Return:
+  89:Generated_Source\PSoC5/VDAC8_2.c **** *  void
+  90:Generated_Source\PSoC5/VDAC8_2.c **** *
+  91:Generated_Source\PSoC5/VDAC8_2.c **** * Theory:
+  92:Generated_Source\PSoC5/VDAC8_2.c **** *
+  93:Generated_Source\PSoC5/VDAC8_2.c **** * Side Effects:
+  94:Generated_Source\PSoC5/VDAC8_2.c **** *
+  95:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+  96:Generated_Source\PSoC5/VDAC8_2.c **** void VDAC8_2_Enable(void) 
+  97:Generated_Source\PSoC5/VDAC8_2.c **** {
+  28              		.loc 1 97 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  98:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_PWRMGR |= VDAC8_2_ACT_PWR_EN;
+  33              		.loc 1 98 0
+  34 0000 054A     		ldr	r2, .L2
+  35 0002 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+  36 0004 43F00103 		orr	r3, r3, #1
+  37 0008 1370     		strb	r3, [r2]
+  99:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_STBY_PWRMGR |= VDAC8_2_STBY_PWR_EN;
+  38              		.loc 1 99 0
+  39 000a 1032     		adds	r2, r2, #16
+  40 000c 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+  41 000e 43F00103 		orr	r3, r3, #1
+  42 0012 1370     		strb	r3, [r2]
+  43 0014 7047     		bx	lr
+  44              	.L3:
+  45 0016 00BF     		.align	2
+  46              	.L2:
+  47 0018 A8430040 		.word	1073759144
+  48              		.cfi_endproc
+  49              	.LFE1:
+  50              		.size	VDAC8_2_Enable, .-VDAC8_2_Enable
+  51              		.section	.text.VDAC8_2_Stop,"ax",%progbits
+  52              		.align	2
+  53              		.global	VDAC8_2_Stop
+  54              		.thumb
+  55              		.thumb_func
+  56              		.type	VDAC8_2_Stop, %function
+  57              	VDAC8_2_Stop:
+  58              	.LFB3:
+ 100:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 101:Generated_Source\PSoC5/VDAC8_2.c ****     /*This is to restore the value of register CR0 ,
+ 102:Generated_Source\PSoC5/VDAC8_2.c ****     which is modified  in Stop API , this prevents misbehaviour of VDAC */
+ 103:Generated_Source\PSoC5/VDAC8_2.c ****     #if (CY_PSOC5A)
+ 104:Generated_Source\PSoC5/VDAC8_2.c ****         if(VDAC8_2_restoreVal == 1u) 
+ 105:Generated_Source\PSoC5/VDAC8_2.c ****         {
+ 106:Generated_Source\PSoC5/VDAC8_2.c ****              VDAC8_2_CR0 = VDAC8_2_backup.data_value;
+ 107:Generated_Source\PSoC5/VDAC8_2.c ****              VDAC8_2_restoreVal = 0u;
+ 108:Generated_Source\PSoC5/VDAC8_2.c ****         }
+ 109:Generated_Source\PSoC5/VDAC8_2.c ****     #endif /* CY_PSOC5A */
+ 110:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 111:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 112:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 113:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 4
+
+
+ 114:Generated_Source\PSoC5/VDAC8_2.c **** * Function Name: VDAC8_2_Start
+ 115:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+ 116:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 117:Generated_Source\PSoC5/VDAC8_2.c **** * Summary:
+ 118:Generated_Source\PSoC5/VDAC8_2.c **** *  The start function initializes the voltage DAC with the default values, 
+ 119:Generated_Source\PSoC5/VDAC8_2.c **** *  and sets the power to the given level.  A power level of 0, is the same as
+ 120:Generated_Source\PSoC5/VDAC8_2.c **** *  executing the stop function.
+ 121:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 122:Generated_Source\PSoC5/VDAC8_2.c **** * Parameters:
+ 123:Generated_Source\PSoC5/VDAC8_2.c **** *  Power: Sets power level between off (0) and (3) high power
+ 124:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 125:Generated_Source\PSoC5/VDAC8_2.c **** * Return:
+ 126:Generated_Source\PSoC5/VDAC8_2.c **** *  void 
+ 127:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 128:Generated_Source\PSoC5/VDAC8_2.c **** * Global variables:
+ 129:Generated_Source\PSoC5/VDAC8_2.c **** *  VDAC8_2_initVar: Is modified when this function is called for the 
+ 130:Generated_Source\PSoC5/VDAC8_2.c **** *  first time. Is used to ensure that initialization happens only once.
+ 131:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 132:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+ 133:Generated_Source\PSoC5/VDAC8_2.c **** void VDAC8_2_Start(void)  
+ 134:Generated_Source\PSoC5/VDAC8_2.c **** {
+ 135:Generated_Source\PSoC5/VDAC8_2.c ****     /* Hardware initiazation only needs to occure the first time */
+ 136:Generated_Source\PSoC5/VDAC8_2.c ****     if(VDAC8_2_initVar == 0u)
+ 137:Generated_Source\PSoC5/VDAC8_2.c ****     { 
+ 138:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_Init();
+ 139:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_initVar = 1u;
+ 140:Generated_Source\PSoC5/VDAC8_2.c ****     }
+ 141:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 142:Generated_Source\PSoC5/VDAC8_2.c ****     /* Enable power to DAC */
+ 143:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_Enable();
+ 144:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 145:Generated_Source\PSoC5/VDAC8_2.c ****     /* Set default value */
+ 146:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_SetValue(VDAC8_2_DEFAULT_DATA); 
+ 147:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 148:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 149:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 150:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+ 151:Generated_Source\PSoC5/VDAC8_2.c **** * Function Name: VDAC8_2_Stop
+ 152:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+ 153:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 154:Generated_Source\PSoC5/VDAC8_2.c **** * Summary:
+ 155:Generated_Source\PSoC5/VDAC8_2.c **** *  Powers down DAC to lowest power state.
+ 156:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 157:Generated_Source\PSoC5/VDAC8_2.c **** * Parameters:
+ 158:Generated_Source\PSoC5/VDAC8_2.c **** *  void
+ 159:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 160:Generated_Source\PSoC5/VDAC8_2.c **** * Return:
+ 161:Generated_Source\PSoC5/VDAC8_2.c **** *  void
+ 162:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 163:Generated_Source\PSoC5/VDAC8_2.c **** * Theory:
+ 164:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 165:Generated_Source\PSoC5/VDAC8_2.c **** * Side Effects:
+ 166:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 167:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+ 168:Generated_Source\PSoC5/VDAC8_2.c **** void VDAC8_2_Stop(void) 
+ 169:Generated_Source\PSoC5/VDAC8_2.c **** {
+  59              		.loc 1 169 0
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 5
+
+
+  60              		.cfi_startproc
+  61              		@ args = 0, pretend = 0, frame = 0
+  62              		@ frame_needed = 0, uses_anonymous_args = 0
+  63              		@ link register save eliminated.
+ 170:Generated_Source\PSoC5/VDAC8_2.c ****     /* Disble power to DAC */
+ 171:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_PWRMGR &= (uint8)(~VDAC8_2_ACT_PWR_EN);
+  64              		.loc 1 171 0
+  65 0000 054A     		ldr	r2, .L5
+  66 0002 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+  67 0004 03F0FE03 		and	r3, r3, #254
+  68 0008 1370     		strb	r3, [r2]
+ 172:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_STBY_PWRMGR &= (uint8)(~VDAC8_2_STBY_PWR_EN);
+  69              		.loc 1 172 0
+  70 000a 1032     		adds	r2, r2, #16
+  71 000c 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+  72 000e 03F0FE03 		and	r3, r3, #254
+  73 0012 1370     		strb	r3, [r2]
+  74 0014 7047     		bx	lr
+  75              	.L6:
+  76 0016 00BF     		.align	2
+  77              	.L5:
+  78 0018 A8430040 		.word	1073759144
+  79              		.cfi_endproc
+  80              	.LFE3:
+  81              		.size	VDAC8_2_Stop, .-VDAC8_2_Stop
+  82              		.section	.text.VDAC8_2_SetSpeed,"ax",%progbits
+  83              		.align	2
+  84              		.global	VDAC8_2_SetSpeed
+  85              		.thumb
+  86              		.thumb_func
+  87              		.type	VDAC8_2_SetSpeed, %function
+  88              	VDAC8_2_SetSpeed:
+  89              	.LFB4:
+ 173:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 174:Generated_Source\PSoC5/VDAC8_2.c ****     /* This is a work around for PSoC5A  ,
+ 175:Generated_Source\PSoC5/VDAC8_2.c ****     this sets VDAC to current mode with output off */
+ 176:Generated_Source\PSoC5/VDAC8_2.c ****     #if (CY_PSOC5A)
+ 177:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_backup.data_value = VDAC8_2_CR0;
+ 178:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_CR0 = VDAC8_2_CUR_MODE_OUT_OFF;
+ 179:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_restoreVal = 1u;
+ 180:Generated_Source\PSoC5/VDAC8_2.c ****     #endif /* CY_PSOC5A */
+ 181:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 182:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 183:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 184:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+ 185:Generated_Source\PSoC5/VDAC8_2.c **** * Function Name: VDAC8_2_SetSpeed
+ 186:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+ 187:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 188:Generated_Source\PSoC5/VDAC8_2.c **** * Summary:
+ 189:Generated_Source\PSoC5/VDAC8_2.c **** *  Set DAC speed
+ 190:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 191:Generated_Source\PSoC5/VDAC8_2.c **** * Parameters:
+ 192:Generated_Source\PSoC5/VDAC8_2.c **** *  power: Sets speed value
+ 193:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 194:Generated_Source\PSoC5/VDAC8_2.c **** * Return:
+ 195:Generated_Source\PSoC5/VDAC8_2.c **** *  void
+ 196:Generated_Source\PSoC5/VDAC8_2.c **** *
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 6
+
+
+ 197:Generated_Source\PSoC5/VDAC8_2.c **** * Theory:
+ 198:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 199:Generated_Source\PSoC5/VDAC8_2.c **** * Side Effects:
+ 200:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 201:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+ 202:Generated_Source\PSoC5/VDAC8_2.c **** void VDAC8_2_SetSpeed(uint8 speed) 
+ 203:Generated_Source\PSoC5/VDAC8_2.c **** {
+  90              		.loc 1 203 0
+  91              		.cfi_startproc
+  92              		@ args = 0, pretend = 0, frame = 0
+  93              		@ frame_needed = 0, uses_anonymous_args = 0
+  94              		@ link register save eliminated.
+  95              	.LVL0:
+ 204:Generated_Source\PSoC5/VDAC8_2.c ****     /* Clear power mask then write in new value */
+ 205:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_CR0 &= (uint8)(~VDAC8_2_HS_MASK);
+  96              		.loc 1 205 0
+  97 0000 054B     		ldr	r3, .L8
+  98 0002 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+  99 0004 02F0FD02 		and	r2, r2, #253
+ 100 0008 1A70     		strb	r2, [r3]
+ 206:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_CR0 |=  (speed & VDAC8_2_HS_MASK);
+ 101              		.loc 1 206 0
+ 102 000a 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+ 103 000c 00F00200 		and	r0, r0, #2
+ 104              	.LVL1:
+ 105 0010 1043     		orrs	r0, r0, r2
+ 106 0012 1870     		strb	r0, [r3]
+ 107 0014 7047     		bx	lr
+ 108              	.L9:
+ 109 0016 00BF     		.align	2
+ 110              	.L8:
+ 111 0018 20580040 		.word	1073764384
+ 112              		.cfi_endproc
+ 113              	.LFE4:
+ 114              		.size	VDAC8_2_SetSpeed, .-VDAC8_2_SetSpeed
+ 115              		.section	.text.VDAC8_2_SetValue,"ax",%progbits
+ 116              		.align	2
+ 117              		.global	VDAC8_2_SetValue
+ 118              		.thumb
+ 119              		.thumb_func
+ 120              		.type	VDAC8_2_SetValue, %function
+ 121              	VDAC8_2_SetValue:
+ 122              	.LFB6:
+ 207:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 208:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 209:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 210:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+ 211:Generated_Source\PSoC5/VDAC8_2.c **** * Function Name: VDAC8_2_SetRange
+ 212:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+ 213:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 214:Generated_Source\PSoC5/VDAC8_2.c **** * Summary:
+ 215:Generated_Source\PSoC5/VDAC8_2.c **** *  Set one of three current ranges.
+ 216:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 217:Generated_Source\PSoC5/VDAC8_2.c **** * Parameters:
+ 218:Generated_Source\PSoC5/VDAC8_2.c **** *  Range: Sets one of Three valid ranges.
+ 219:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 220:Generated_Source\PSoC5/VDAC8_2.c **** * Return:
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 7
+
+
+ 221:Generated_Source\PSoC5/VDAC8_2.c **** *  void 
+ 222:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 223:Generated_Source\PSoC5/VDAC8_2.c **** * Theory:
+ 224:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 225:Generated_Source\PSoC5/VDAC8_2.c **** * Side Effects:
+ 226:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 227:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+ 228:Generated_Source\PSoC5/VDAC8_2.c **** void VDAC8_2_SetRange(uint8 range) 
+ 229:Generated_Source\PSoC5/VDAC8_2.c **** {
+ 230:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_CR0 &= (uint8)(~VDAC8_2_RANGE_MASK);      /* Clear existing mode */
+ 231:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_CR0 |= (range & VDAC8_2_RANGE_MASK);      /*  Set Range  */
+ 232:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_DacTrim();
+ 233:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 234:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 235:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 236:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+ 237:Generated_Source\PSoC5/VDAC8_2.c **** * Function Name: VDAC8_2_SetValue
+ 238:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+ 239:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 240:Generated_Source\PSoC5/VDAC8_2.c **** * Summary:
+ 241:Generated_Source\PSoC5/VDAC8_2.c **** *  Set 8-bit DAC value
+ 242:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 243:Generated_Source\PSoC5/VDAC8_2.c **** * Parameters:  
+ 244:Generated_Source\PSoC5/VDAC8_2.c **** *  value:  Sets DAC value between 0 and 255.
+ 245:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 246:Generated_Source\PSoC5/VDAC8_2.c **** * Return: 
+ 247:Generated_Source\PSoC5/VDAC8_2.c **** *  void 
+ 248:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 249:Generated_Source\PSoC5/VDAC8_2.c **** * Theory: 
+ 250:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 251:Generated_Source\PSoC5/VDAC8_2.c **** * Side Effects:
+ 252:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 253:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+ 254:Generated_Source\PSoC5/VDAC8_2.c **** void VDAC8_2_SetValue(uint8 value) 
+ 255:Generated_Source\PSoC5/VDAC8_2.c **** {
+ 123              		.loc 1 255 0
+ 124              		.cfi_startproc
+ 125              		@ args = 0, pretend = 0, frame = 0
+ 126              		@ frame_needed = 0, uses_anonymous_args = 0
+ 127              		@ link register save eliminated.
+ 128              	.LVL2:
+ 256:Generated_Source\PSoC5/VDAC8_2.c ****     #if (CY_PSOC5A)
+ 257:Generated_Source\PSoC5/VDAC8_2.c ****         uint8 VDAC8_2_intrStatus = CyEnterCriticalSection();
+ 258:Generated_Source\PSoC5/VDAC8_2.c ****     #endif /* CY_PSOC5A */
+ 259:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 260:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_Data = value;                /*  Set Value  */
+ 129              		.loc 1 260 0
+ 130 0000 014B     		ldr	r3, .L11
+ 131 0002 1870     		strb	r0, [r3]
+ 132 0004 7047     		bx	lr
+ 133              	.L12:
+ 134 0006 00BF     		.align	2
+ 135              	.L11:
+ 136 0008 805B0040 		.word	1073765248
+ 137              		.cfi_endproc
+ 138              	.LFE6:
+ 139              		.size	VDAC8_2_SetValue, .-VDAC8_2_SetValue
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 8
+
+
+ 140              		.section	.text.VDAC8_2_DacTrim,"ax",%progbits
+ 141              		.align	2
+ 142              		.global	VDAC8_2_DacTrim
+ 143              		.thumb
+ 144              		.thumb_func
+ 145              		.type	VDAC8_2_DacTrim, %function
+ 146              	VDAC8_2_DacTrim:
+ 147              	.LFB7:
+ 261:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 262:Generated_Source\PSoC5/VDAC8_2.c ****     /* PSOC5A requires a double write */
+ 263:Generated_Source\PSoC5/VDAC8_2.c ****     /* Exit Critical Section */
+ 264:Generated_Source\PSoC5/VDAC8_2.c ****     #if (CY_PSOC5A)
+ 265:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_Data = value;
+ 266:Generated_Source\PSoC5/VDAC8_2.c ****         CyExitCriticalSection(VDAC8_2_intrStatus);
+ 267:Generated_Source\PSoC5/VDAC8_2.c ****     #endif /* CY_PSOC5A */
+ 268:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 269:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 270:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 271:Generated_Source\PSoC5/VDAC8_2.c **** /*******************************************************************************
+ 272:Generated_Source\PSoC5/VDAC8_2.c **** * Function Name: VDAC8_2_DacTrim
+ 273:Generated_Source\PSoC5/VDAC8_2.c **** ********************************************************************************
+ 274:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 275:Generated_Source\PSoC5/VDAC8_2.c **** * Summary:
+ 276:Generated_Source\PSoC5/VDAC8_2.c **** *  Set the trim value for the given range.
+ 277:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 278:Generated_Source\PSoC5/VDAC8_2.c **** * Parameters:
+ 279:Generated_Source\PSoC5/VDAC8_2.c **** *  range:  1V or 4V range.  See constants.
+ 280:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 281:Generated_Source\PSoC5/VDAC8_2.c **** * Return:
+ 282:Generated_Source\PSoC5/VDAC8_2.c **** *  void
+ 283:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 284:Generated_Source\PSoC5/VDAC8_2.c **** * Theory: 
+ 285:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 286:Generated_Source\PSoC5/VDAC8_2.c **** * Side Effects:
+ 287:Generated_Source\PSoC5/VDAC8_2.c **** *
+ 288:Generated_Source\PSoC5/VDAC8_2.c **** *******************************************************************************/
+ 289:Generated_Source\PSoC5/VDAC8_2.c **** void VDAC8_2_DacTrim(void) 
+ 290:Generated_Source\PSoC5/VDAC8_2.c **** {
+ 148              		.loc 1 290 0
+ 149              		.cfi_startproc
+ 150              		@ args = 0, pretend = 0, frame = 0
+ 151              		@ frame_needed = 0, uses_anonymous_args = 0
+ 152              		@ link register save eliminated.
+ 291:Generated_Source\PSoC5/VDAC8_2.c ****     uint8 mode;
+ 292:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 293:Generated_Source\PSoC5/VDAC8_2.c ****     mode = (uint8)((VDAC8_2_CR0 & VDAC8_2_RANGE_MASK) >> 2) + VDAC8_2_TRIM_M7_1V_RNG_OFFSET;
+ 153              		.loc 1 293 0
+ 154 0000 064B     		ldr	r3, .L14
+ 155 0002 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 156 0004 C3F38103 		ubfx	r3, r3, #2, #2
+ 157              	.LVL3:
+ 294:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_TR = CY_GET_XTND_REG8((uint8 *)(VDAC8_2_DAC_TRIM_BASE + mode));
+ 158              		.loc 1 294 0
+ 159 0008 03F19243 		add	r3, r3, #1224736768
+ 160              	.LVL4:
+ 161 000c 0633     		adds	r3, r3, #6
+ 162              	.LVL5:
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 9
+
+
+ 163 000e 93F82031 		ldrb	r3, [r3, #288]	@ zero_extendqisi2
+ 164              	.LVL6:
+ 165 0012 DBB2     		uxtb	r3, r3
+ 166 0014 024A     		ldr	r2, .L14+4
+ 167 0016 1370     		strb	r3, [r2]
+ 168 0018 7047     		bx	lr
+ 169              	.L15:
+ 170 001a 00BF     		.align	2
+ 171              	.L14:
+ 172 001c 20580040 		.word	1073764384
+ 173 0020 08460040 		.word	1073759752
+ 174              		.cfi_endproc
+ 175              	.LFE7:
+ 176              		.size	VDAC8_2_DacTrim, .-VDAC8_2_DacTrim
+ 177              		.section	.text.VDAC8_2_SetRange,"ax",%progbits
+ 178              		.align	2
+ 179              		.global	VDAC8_2_SetRange
+ 180              		.thumb
+ 181              		.thumb_func
+ 182              		.type	VDAC8_2_SetRange, %function
+ 183              	VDAC8_2_SetRange:
+ 184              	.LFB5:
+ 229:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_CR0 &= (uint8)(~VDAC8_2_RANGE_MASK);      /* Clear existing mode */
+ 185              		.loc 1 229 0
+ 186              		.cfi_startproc
+ 187              		@ args = 0, pretend = 0, frame = 0
+ 188              		@ frame_needed = 0, uses_anonymous_args = 0
+ 189              	.LVL7:
+ 190 0000 08B5     		push	{r3, lr}
+ 191              		.cfi_def_cfa_offset 8
+ 192              		.cfi_offset 3, -8
+ 193              		.cfi_offset 14, -4
+ 230:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_CR0 |= (range & VDAC8_2_RANGE_MASK);      /*  Set Range  */
+ 194              		.loc 1 230 0
+ 195 0002 064B     		ldr	r3, .L18
+ 196 0004 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+ 197 0006 02F0F302 		and	r2, r2, #243
+ 198 000a 1A70     		strb	r2, [r3]
+ 231:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_DacTrim();
+ 199              		.loc 1 231 0
+ 200 000c 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+ 201 000e 00F00C00 		and	r0, r0, #12
+ 202              	.LVL8:
+ 203 0012 1043     		orrs	r0, r0, r2
+ 204 0014 1870     		strb	r0, [r3]
+ 232:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 205              		.loc 1 232 0
+ 206 0016 FFF7FEFF 		bl	VDAC8_2_DacTrim
+ 207              	.LVL9:
+ 208 001a 08BD     		pop	{r3, pc}
+ 209              	.L19:
+ 210              		.align	2
+ 211              	.L18:
+ 212 001c 20580040 		.word	1073764384
+ 213              		.cfi_endproc
+ 214              	.LFE5:
+ 215              		.size	VDAC8_2_SetRange, .-VDAC8_2_SetRange
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 10
+
+
+ 216              		.section	.text.VDAC8_2_Init,"ax",%progbits
+ 217              		.align	2
+ 218              		.global	VDAC8_2_Init
+ 219              		.thumb
+ 220              		.thumb_func
+ 221              		.type	VDAC8_2_Init, %function
+ 222              	VDAC8_2_Init:
+ 223              	.LFB0:
+  56:Generated_Source\PSoC5/VDAC8_2.c ****     VDAC8_2_CR0 = (VDAC8_2_MODE_V );
+ 224              		.loc 1 56 0
+ 225              		.cfi_startproc
+ 226              		@ args = 0, pretend = 0, frame = 0
+ 227              		@ frame_needed = 0, uses_anonymous_args = 0
+ 228 0000 10B5     		push	{r4, lr}
+ 229              		.cfi_def_cfa_offset 8
+ 230              		.cfi_offset 4, -8
+ 231              		.cfi_offset 14, -4
+  57:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 232              		.loc 1 57 0
+ 233 0002 0024     		movs	r4, #0
+ 234 0004 084B     		ldr	r3, .L22
+ 235 0006 1C70     		strb	r4, [r3]
+  61:Generated_Source\PSoC5/VDAC8_2.c ****     #else
+ 236              		.loc 1 61 0
+ 237 0008 2022     		movs	r2, #32
+ 238 000a 0133     		adds	r3, r3, #1
+ 239 000c 1A70     		strb	r2, [r3]
+  68:Generated_Source\PSoC5/VDAC8_2.c ****     #endif/* (VDAC8_2_DEFAULT_STRB != 0) */
+ 240              		.loc 1 68 0
+ 241 000e 074A     		ldr	r2, .L22+4
+ 242 0010 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+ 243 0012 43F00803 		orr	r3, r3, #8
+ 244 0016 1370     		strb	r3, [r2]
+  72:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 245              		.loc 1 72 0
+ 246 0018 0420     		movs	r0, #4
+ 247 001a FFF7FEFF 		bl	VDAC8_2_SetRange
+ 248              	.LVL10:
+  75:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 249              		.loc 1 75 0
+ 250 001e 2046     		mov	r0, r4
+ 251 0020 FFF7FEFF 		bl	VDAC8_2_SetSpeed
+ 252              	.LVL11:
+ 253 0024 10BD     		pop	{r4, pc}
+ 254              	.L23:
+ 255 0026 00BF     		.align	2
+ 256              	.L22:
+ 257 0028 20580040 		.word	1073764384
+ 258 002c 875A0040 		.word	1073764999
+ 259              		.cfi_endproc
+ 260              	.LFE0:
+ 261              		.size	VDAC8_2_Init, .-VDAC8_2_Init
+ 262              		.section	.text.VDAC8_2_Start,"ax",%progbits
+ 263              		.align	2
+ 264              		.global	VDAC8_2_Start
+ 265              		.thumb
+ 266              		.thumb_func
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 11
+
+
+ 267              		.type	VDAC8_2_Start, %function
+ 268              	VDAC8_2_Start:
+ 269              	.LFB2:
+ 134:Generated_Source\PSoC5/VDAC8_2.c ****     /* Hardware initiazation only needs to occure the first time */
+ 270              		.loc 1 134 0
+ 271              		.cfi_startproc
+ 272              		@ args = 0, pretend = 0, frame = 0
+ 273              		@ frame_needed = 0, uses_anonymous_args = 0
+ 274 0000 08B5     		push	{r3, lr}
+ 275              		.cfi_def_cfa_offset 8
+ 276              		.cfi_offset 3, -8
+ 277              		.cfi_offset 14, -4
+ 136:Generated_Source\PSoC5/VDAC8_2.c ****     { 
+ 278              		.loc 1 136 0
+ 279 0002 074B     		ldr	r3, .L27
+ 280 0004 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 281 0006 23B9     		cbnz	r3, .L25
+ 138:Generated_Source\PSoC5/VDAC8_2.c ****         VDAC8_2_initVar = 1u;
+ 282              		.loc 1 138 0
+ 283 0008 FFF7FEFF 		bl	VDAC8_2_Init
+ 284              	.LVL12:
+ 139:Generated_Source\PSoC5/VDAC8_2.c ****     }
+ 285              		.loc 1 139 0
+ 286 000c 0122     		movs	r2, #1
+ 287 000e 044B     		ldr	r3, .L27
+ 288 0010 1A70     		strb	r2, [r3]
+ 289              	.L25:
+ 143:Generated_Source\PSoC5/VDAC8_2.c **** 
+ 290              		.loc 1 143 0
+ 291 0012 FFF7FEFF 		bl	VDAC8_2_Enable
+ 292              	.LVL13:
+ 146:Generated_Source\PSoC5/VDAC8_2.c **** }
+ 293              		.loc 1 146 0
+ 294 0016 6420     		movs	r0, #100
+ 295 0018 FFF7FEFF 		bl	VDAC8_2_SetValue
+ 296              	.LVL14:
+ 297 001c 08BD     		pop	{r3, pc}
+ 298              	.L28:
+ 299 001e 00BF     		.align	2
+ 300              	.L27:
+ 301 0020 00000000 		.word	.LANCHOR0
+ 302              		.cfi_endproc
+ 303              	.LFE2:
+ 304              		.size	VDAC8_2_Start, .-VDAC8_2_Start
+ 305              		.global	VDAC8_2_initVar
+ 306              		.bss
+ 307              		.set	.LANCHOR0,. + 0
+ 308              		.type	VDAC8_2_initVar, %object
+ 309              		.size	VDAC8_2_initVar, 1
+ 310              	VDAC8_2_initVar:
+ 311 0000 00       		.space	1
+ 312              		.text
+ 313              	.Letext0:
+ 314              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
+ 315              		.section	.debug_info,"",%progbits
+ 316              	.Ldebug_info0:
+ 317 0000 DB010000 		.4byte	0x1db
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 12
+
+
+ 318 0004 0400     		.2byte	0x4
+ 319 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 320 000a 04       		.byte	0x4
+ 321 000b 01       		.uleb128 0x1
+ 322 000c 78000000 		.4byte	.LASF25
+ 323 0010 0C       		.byte	0xc
+ 324 0011 43000000 		.4byte	.LASF26
+ 325 0015 B9010000 		.4byte	.LASF27
+ 326 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 327 001d 00000000 		.4byte	0
+ 328 0021 00000000 		.4byte	.Ldebug_line0
+ 329 0025 02       		.uleb128 0x2
+ 330 0026 01       		.byte	0x1
+ 331 0027 06       		.byte	0x6
+ 332 0028 13020000 		.4byte	.LASF0
+ 333 002c 02       		.uleb128 0x2
+ 334 002d 01       		.byte	0x1
+ 335 002e 08       		.byte	0x8
+ 336 002f 6A000000 		.4byte	.LASF1
+ 337 0033 02       		.uleb128 0x2
+ 338 0034 02       		.byte	0x2
+ 339 0035 05       		.byte	0x5
+ 340 0036 FA010000 		.4byte	.LASF2
+ 341 003a 02       		.uleb128 0x2
+ 342 003b 02       		.byte	0x2
+ 343 003c 07       		.byte	0x7
+ 344 003d 1D010000 		.4byte	.LASF3
+ 345 0041 02       		.uleb128 0x2
+ 346 0042 04       		.byte	0x4
+ 347 0043 05       		.byte	0x5
+ 348 0044 0A020000 		.4byte	.LASF4
+ 349 0048 02       		.uleb128 0x2
+ 350 0049 04       		.byte	0x4
+ 351 004a 07       		.byte	0x7
+ 352 004b 0B010000 		.4byte	.LASF5
+ 353 004f 02       		.uleb128 0x2
+ 354 0050 08       		.byte	0x8
+ 355 0051 05       		.byte	0x5
+ 356 0052 E7010000 		.4byte	.LASF6
+ 357 0056 02       		.uleb128 0x2
+ 358 0057 08       		.byte	0x8
+ 359 0058 07       		.byte	0x7
+ 360 0059 97010000 		.4byte	.LASF7
+ 361 005d 03       		.uleb128 0x3
+ 362 005e 04       		.byte	0x4
+ 363 005f 05       		.byte	0x5
+ 364 0060 696E7400 		.ascii	"int\000"
+ 365 0064 02       		.uleb128 0x2
+ 366 0065 04       		.byte	0x4
+ 367 0066 07       		.byte	0x7
+ 368 0067 8A010000 		.4byte	.LASF8
+ 369 006b 04       		.uleb128 0x4
+ 370 006c 04020000 		.4byte	.LASF12
+ 371 0070 02       		.byte	0x2
+ 372 0071 E801     		.2byte	0x1e8
+ 373 0073 2C000000 		.4byte	0x2c
+ 374 0077 02       		.uleb128 0x2
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 13
+
+
+ 375 0078 04       		.byte	0x4
+ 376 0079 04       		.byte	0x4
+ 377 007a 64000000 		.4byte	.LASF9
+ 378 007e 02       		.uleb128 0x2
+ 379 007f 08       		.byte	0x8
+ 380 0080 04       		.byte	0x4
+ 381 0081 64010000 		.4byte	.LASF10
+ 382 0085 02       		.uleb128 0x2
+ 383 0086 01       		.byte	0x1
+ 384 0087 08       		.byte	0x8
+ 385 0088 F5010000 		.4byte	.LASF11
+ 386 008c 04       		.uleb128 0x4
+ 387 008d 06010000 		.4byte	.LASF13
+ 388 0091 02       		.byte	0x2
+ 389 0092 9202     		.2byte	0x292
+ 390 0094 98000000 		.4byte	0x98
+ 391 0098 05       		.uleb128 0x5
+ 392 0099 6B000000 		.4byte	0x6b
+ 393 009d 06       		.uleb128 0x6
+ 394 009e 34000000 		.4byte	.LASF14
+ 395 00a2 01       		.byte	0x1
+ 396 00a3 60       		.byte	0x60
+ 397 00a4 00000000 		.4byte	.LFB1
+ 398 00a8 1C000000 		.4byte	.LFE1-.LFB1
+ 399 00ac 01       		.uleb128 0x1
+ 400 00ad 9C       		.byte	0x9c
+ 401 00ae 06       		.uleb128 0x6
+ 402 00af 40010000 		.4byte	.LASF15
+ 403 00b3 01       		.byte	0x1
+ 404 00b4 A8       		.byte	0xa8
+ 405 00b5 00000000 		.4byte	.LFB3
+ 406 00b9 1C000000 		.4byte	.LFE3-.LFB3
+ 407 00bd 01       		.uleb128 0x1
+ 408 00be 9C       		.byte	0x9c
+ 409 00bf 07       		.uleb128 0x7
+ 410 00c0 00000000 		.4byte	.LASF16
+ 411 00c4 01       		.byte	0x1
+ 412 00c5 CA       		.byte	0xca
+ 413 00c6 00000000 		.4byte	.LFB4
+ 414 00ca 1C000000 		.4byte	.LFE4-.LFB4
+ 415 00ce 01       		.uleb128 0x1
+ 416 00cf 9C       		.byte	0x9c
+ 417 00d0 E4000000 		.4byte	0xe4
+ 418 00d4 08       		.uleb128 0x8
+ 419 00d5 B3010000 		.4byte	.LASF18
+ 420 00d9 01       		.byte	0x1
+ 421 00da CA       		.byte	0xca
+ 422 00db 6B000000 		.4byte	0x6b
+ 423 00df 00000000 		.4byte	.LLST0
+ 424 00e3 00       		.byte	0
+ 425 00e4 07       		.uleb128 0x7
+ 426 00e5 6B010000 		.4byte	.LASF17
+ 427 00e9 01       		.byte	0x1
+ 428 00ea FE       		.byte	0xfe
+ 429 00eb 00000000 		.4byte	.LFB6
+ 430 00ef 0C000000 		.4byte	.LFE6-.LFB6
+ 431 00f3 01       		.uleb128 0x1
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 14
+
+
+ 432 00f4 9C       		.byte	0x9c
+ 433 00f5 07010000 		.4byte	0x107
+ 434 00f9 09       		.uleb128 0x9
+ 435 00fa 1E000000 		.4byte	.LASF19
+ 436 00fe 01       		.byte	0x1
+ 437 00ff FE       		.byte	0xfe
+ 438 0100 6B000000 		.4byte	0x6b
+ 439 0104 01       		.uleb128 0x1
+ 440 0105 50       		.byte	0x50
+ 441 0106 00       		.byte	0
+ 442 0107 0A       		.uleb128 0xa
+ 443 0108 30010000 		.4byte	.LASF20
+ 444 010c 01       		.byte	0x1
+ 445 010d 2101     		.2byte	0x121
+ 446 010f 00000000 		.4byte	.LFB7
+ 447 0113 24000000 		.4byte	.LFE7-.LFB7
+ 448 0117 01       		.uleb128 0x1
+ 449 0118 9C       		.byte	0x9c
+ 450 0119 2E010000 		.4byte	0x12e
+ 451 011d 0B       		.uleb128 0xb
+ 452 011e AE010000 		.4byte	.LASF28
+ 453 0122 01       		.byte	0x1
+ 454 0123 2301     		.2byte	0x123
+ 455 0125 6B000000 		.4byte	0x6b
+ 456 0129 21000000 		.4byte	.LLST1
+ 457 012d 00       		.byte	0
+ 458 012e 07       		.uleb128 0x7
+ 459 012f 53010000 		.4byte	.LASF21
+ 460 0133 01       		.byte	0x1
+ 461 0134 E4       		.byte	0xe4
+ 462 0135 00000000 		.4byte	.LFB5
+ 463 0139 20000000 		.4byte	.LFE5-.LFB5
+ 464 013d 01       		.uleb128 0x1
+ 465 013e 9C       		.byte	0x9c
+ 466 013f 5C010000 		.4byte	0x15c
+ 467 0143 08       		.uleb128 0x8
+ 468 0144 4D010000 		.4byte	.LASF22
+ 469 0148 01       		.byte	0x1
+ 470 0149 E4       		.byte	0xe4
+ 471 014a 6B000000 		.4byte	0x6b
+ 472 014e 58000000 		.4byte	.LLST2
+ 473 0152 0C       		.uleb128 0xc
+ 474 0153 1A000000 		.4byte	.LVL9
+ 475 0157 07010000 		.4byte	0x107
+ 476 015b 00       		.byte	0
+ 477 015c 07       		.uleb128 0x7
+ 478 015d 11000000 		.4byte	.LASF23
+ 479 0161 01       		.byte	0x1
+ 480 0162 37       		.byte	0x37
+ 481 0163 00000000 		.4byte	.LFB0
+ 482 0167 30000000 		.4byte	.LFE0-.LFB0
+ 483 016b 01       		.uleb128 0x1
+ 484 016c 9C       		.byte	0x9c
+ 485 016d 95010000 		.4byte	0x195
+ 486 0171 0D       		.uleb128 0xd
+ 487 0172 1E000000 		.4byte	.LVL10
+ 488 0176 2E010000 		.4byte	0x12e
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 15
+
+
+ 489 017a 84010000 		.4byte	0x184
+ 490 017e 0E       		.uleb128 0xe
+ 491 017f 01       		.uleb128 0x1
+ 492 0180 50       		.byte	0x50
+ 493 0181 01       		.uleb128 0x1
+ 494 0182 34       		.byte	0x34
+ 495 0183 00       		.byte	0
+ 496 0184 0F       		.uleb128 0xf
+ 497 0185 24000000 		.4byte	.LVL11
+ 498 0189 BF000000 		.4byte	0xbf
+ 499 018d 0E       		.uleb128 0xe
+ 500 018e 01       		.uleb128 0x1
+ 501 018f 50       		.byte	0x50
+ 502 0190 02       		.uleb128 0x2
+ 503 0191 74       		.byte	0x74
+ 504 0192 00       		.sleb128 0
+ 505 0193 00       		.byte	0
+ 506 0194 00       		.byte	0
+ 507 0195 07       		.uleb128 0x7
+ 508 0196 7C010000 		.4byte	.LASF24
+ 509 019a 01       		.byte	0x1
+ 510 019b 85       		.byte	0x85
+ 511 019c 00000000 		.4byte	.LFB2
+ 512 01a0 24000000 		.4byte	.LFE2-.LFB2
+ 513 01a4 01       		.uleb128 0x1
+ 514 01a5 9C       		.byte	0x9c
+ 515 01a6 CD010000 		.4byte	0x1cd
+ 516 01aa 0C       		.uleb128 0xc
+ 517 01ab 0C000000 		.4byte	.LVL12
+ 518 01af 5C010000 		.4byte	0x15c
+ 519 01b3 0C       		.uleb128 0xc
+ 520 01b4 16000000 		.4byte	.LVL13
+ 521 01b8 9D000000 		.4byte	0x9d
+ 522 01bc 0F       		.uleb128 0xf
+ 523 01bd 1C000000 		.4byte	.LVL14
+ 524 01c1 E4000000 		.4byte	0xe4
+ 525 01c5 0E       		.uleb128 0xe
+ 526 01c6 01       		.uleb128 0x1
+ 527 01c7 50       		.byte	0x50
+ 528 01c8 02       		.uleb128 0x2
+ 529 01c9 08       		.byte	0x8
+ 530 01ca 64       		.byte	0x64
+ 531 01cb 00       		.byte	0
+ 532 01cc 00       		.byte	0
+ 533 01cd 10       		.uleb128 0x10
+ 534 01ce 24000000 		.4byte	.LASF29
+ 535 01d2 01       		.byte	0x1
+ 536 01d3 1B       		.byte	0x1b
+ 537 01d4 6B000000 		.4byte	0x6b
+ 538 01d8 05       		.uleb128 0x5
+ 539 01d9 03       		.byte	0x3
+ 540 01da 00000000 		.4byte	VDAC8_2_initVar
+ 541 01de 00       		.byte	0
+ 542              		.section	.debug_abbrev,"",%progbits
+ 543              	.Ldebug_abbrev0:
+ 544 0000 01       		.uleb128 0x1
+ 545 0001 11       		.uleb128 0x11
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 16
+
+
+ 546 0002 01       		.byte	0x1
+ 547 0003 25       		.uleb128 0x25
+ 548 0004 0E       		.uleb128 0xe
+ 549 0005 13       		.uleb128 0x13
+ 550 0006 0B       		.uleb128 0xb
+ 551 0007 03       		.uleb128 0x3
+ 552 0008 0E       		.uleb128 0xe
+ 553 0009 1B       		.uleb128 0x1b
+ 554 000a 0E       		.uleb128 0xe
+ 555 000b 55       		.uleb128 0x55
+ 556 000c 17       		.uleb128 0x17
+ 557 000d 11       		.uleb128 0x11
+ 558 000e 01       		.uleb128 0x1
+ 559 000f 10       		.uleb128 0x10
+ 560 0010 17       		.uleb128 0x17
+ 561 0011 00       		.byte	0
+ 562 0012 00       		.byte	0
+ 563 0013 02       		.uleb128 0x2
+ 564 0014 24       		.uleb128 0x24
+ 565 0015 00       		.byte	0
+ 566 0016 0B       		.uleb128 0xb
+ 567 0017 0B       		.uleb128 0xb
+ 568 0018 3E       		.uleb128 0x3e
+ 569 0019 0B       		.uleb128 0xb
+ 570 001a 03       		.uleb128 0x3
+ 571 001b 0E       		.uleb128 0xe
+ 572 001c 00       		.byte	0
+ 573 001d 00       		.byte	0
+ 574 001e 03       		.uleb128 0x3
+ 575 001f 24       		.uleb128 0x24
+ 576 0020 00       		.byte	0
+ 577 0021 0B       		.uleb128 0xb
+ 578 0022 0B       		.uleb128 0xb
+ 579 0023 3E       		.uleb128 0x3e
+ 580 0024 0B       		.uleb128 0xb
+ 581 0025 03       		.uleb128 0x3
+ 582 0026 08       		.uleb128 0x8
+ 583 0027 00       		.byte	0
+ 584 0028 00       		.byte	0
+ 585 0029 04       		.uleb128 0x4
+ 586 002a 16       		.uleb128 0x16
+ 587 002b 00       		.byte	0
+ 588 002c 03       		.uleb128 0x3
+ 589 002d 0E       		.uleb128 0xe
+ 590 002e 3A       		.uleb128 0x3a
+ 591 002f 0B       		.uleb128 0xb
+ 592 0030 3B       		.uleb128 0x3b
+ 593 0031 05       		.uleb128 0x5
+ 594 0032 49       		.uleb128 0x49
+ 595 0033 13       		.uleb128 0x13
+ 596 0034 00       		.byte	0
+ 597 0035 00       		.byte	0
+ 598 0036 05       		.uleb128 0x5
+ 599 0037 35       		.uleb128 0x35
+ 600 0038 00       		.byte	0
+ 601 0039 49       		.uleb128 0x49
+ 602 003a 13       		.uleb128 0x13
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 17
+
+
+ 603 003b 00       		.byte	0
+ 604 003c 00       		.byte	0
+ 605 003d 06       		.uleb128 0x6
+ 606 003e 2E       		.uleb128 0x2e
+ 607 003f 00       		.byte	0
+ 608 0040 3F       		.uleb128 0x3f
+ 609 0041 19       		.uleb128 0x19
+ 610 0042 03       		.uleb128 0x3
+ 611 0043 0E       		.uleb128 0xe
+ 612 0044 3A       		.uleb128 0x3a
+ 613 0045 0B       		.uleb128 0xb
+ 614 0046 3B       		.uleb128 0x3b
+ 615 0047 0B       		.uleb128 0xb
+ 616 0048 27       		.uleb128 0x27
+ 617 0049 19       		.uleb128 0x19
+ 618 004a 11       		.uleb128 0x11
+ 619 004b 01       		.uleb128 0x1
+ 620 004c 12       		.uleb128 0x12
+ 621 004d 06       		.uleb128 0x6
+ 622 004e 40       		.uleb128 0x40
+ 623 004f 18       		.uleb128 0x18
+ 624 0050 9742     		.uleb128 0x2117
+ 625 0052 19       		.uleb128 0x19
+ 626 0053 00       		.byte	0
+ 627 0054 00       		.byte	0
+ 628 0055 07       		.uleb128 0x7
+ 629 0056 2E       		.uleb128 0x2e
+ 630 0057 01       		.byte	0x1
+ 631 0058 3F       		.uleb128 0x3f
+ 632 0059 19       		.uleb128 0x19
+ 633 005a 03       		.uleb128 0x3
+ 634 005b 0E       		.uleb128 0xe
+ 635 005c 3A       		.uleb128 0x3a
+ 636 005d 0B       		.uleb128 0xb
+ 637 005e 3B       		.uleb128 0x3b
+ 638 005f 0B       		.uleb128 0xb
+ 639 0060 27       		.uleb128 0x27
+ 640 0061 19       		.uleb128 0x19
+ 641 0062 11       		.uleb128 0x11
+ 642 0063 01       		.uleb128 0x1
+ 643 0064 12       		.uleb128 0x12
+ 644 0065 06       		.uleb128 0x6
+ 645 0066 40       		.uleb128 0x40
+ 646 0067 18       		.uleb128 0x18
+ 647 0068 9742     		.uleb128 0x2117
+ 648 006a 19       		.uleb128 0x19
+ 649 006b 01       		.uleb128 0x1
+ 650 006c 13       		.uleb128 0x13
+ 651 006d 00       		.byte	0
+ 652 006e 00       		.byte	0
+ 653 006f 08       		.uleb128 0x8
+ 654 0070 05       		.uleb128 0x5
+ 655 0071 00       		.byte	0
+ 656 0072 03       		.uleb128 0x3
+ 657 0073 0E       		.uleb128 0xe
+ 658 0074 3A       		.uleb128 0x3a
+ 659 0075 0B       		.uleb128 0xb
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 18
+
+
+ 660 0076 3B       		.uleb128 0x3b
+ 661 0077 0B       		.uleb128 0xb
+ 662 0078 49       		.uleb128 0x49
+ 663 0079 13       		.uleb128 0x13
+ 664 007a 02       		.uleb128 0x2
+ 665 007b 17       		.uleb128 0x17
+ 666 007c 00       		.byte	0
+ 667 007d 00       		.byte	0
+ 668 007e 09       		.uleb128 0x9
+ 669 007f 05       		.uleb128 0x5
+ 670 0080 00       		.byte	0
+ 671 0081 03       		.uleb128 0x3
+ 672 0082 0E       		.uleb128 0xe
+ 673 0083 3A       		.uleb128 0x3a
+ 674 0084 0B       		.uleb128 0xb
+ 675 0085 3B       		.uleb128 0x3b
+ 676 0086 0B       		.uleb128 0xb
+ 677 0087 49       		.uleb128 0x49
+ 678 0088 13       		.uleb128 0x13
+ 679 0089 02       		.uleb128 0x2
+ 680 008a 18       		.uleb128 0x18
+ 681 008b 00       		.byte	0
+ 682 008c 00       		.byte	0
+ 683 008d 0A       		.uleb128 0xa
+ 684 008e 2E       		.uleb128 0x2e
+ 685 008f 01       		.byte	0x1
+ 686 0090 3F       		.uleb128 0x3f
+ 687 0091 19       		.uleb128 0x19
+ 688 0092 03       		.uleb128 0x3
+ 689 0093 0E       		.uleb128 0xe
+ 690 0094 3A       		.uleb128 0x3a
+ 691 0095 0B       		.uleb128 0xb
+ 692 0096 3B       		.uleb128 0x3b
+ 693 0097 05       		.uleb128 0x5
+ 694 0098 27       		.uleb128 0x27
+ 695 0099 19       		.uleb128 0x19
+ 696 009a 11       		.uleb128 0x11
+ 697 009b 01       		.uleb128 0x1
+ 698 009c 12       		.uleb128 0x12
+ 699 009d 06       		.uleb128 0x6
+ 700 009e 40       		.uleb128 0x40
+ 701 009f 18       		.uleb128 0x18
+ 702 00a0 9742     		.uleb128 0x2117
+ 703 00a2 19       		.uleb128 0x19
+ 704 00a3 01       		.uleb128 0x1
+ 705 00a4 13       		.uleb128 0x13
+ 706 00a5 00       		.byte	0
+ 707 00a6 00       		.byte	0
+ 708 00a7 0B       		.uleb128 0xb
+ 709 00a8 34       		.uleb128 0x34
+ 710 00a9 00       		.byte	0
+ 711 00aa 03       		.uleb128 0x3
+ 712 00ab 0E       		.uleb128 0xe
+ 713 00ac 3A       		.uleb128 0x3a
+ 714 00ad 0B       		.uleb128 0xb
+ 715 00ae 3B       		.uleb128 0x3b
+ 716 00af 05       		.uleb128 0x5
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 19
+
+
+ 717 00b0 49       		.uleb128 0x49
+ 718 00b1 13       		.uleb128 0x13
+ 719 00b2 02       		.uleb128 0x2
+ 720 00b3 17       		.uleb128 0x17
+ 721 00b4 00       		.byte	0
+ 722 00b5 00       		.byte	0
+ 723 00b6 0C       		.uleb128 0xc
+ 724 00b7 898201   		.uleb128 0x4109
+ 725 00ba 00       		.byte	0
+ 726 00bb 11       		.uleb128 0x11
+ 727 00bc 01       		.uleb128 0x1
+ 728 00bd 31       		.uleb128 0x31
+ 729 00be 13       		.uleb128 0x13
+ 730 00bf 00       		.byte	0
+ 731 00c0 00       		.byte	0
+ 732 00c1 0D       		.uleb128 0xd
+ 733 00c2 898201   		.uleb128 0x4109
+ 734 00c5 01       		.byte	0x1
+ 735 00c6 11       		.uleb128 0x11
+ 736 00c7 01       		.uleb128 0x1
+ 737 00c8 31       		.uleb128 0x31
+ 738 00c9 13       		.uleb128 0x13
+ 739 00ca 01       		.uleb128 0x1
+ 740 00cb 13       		.uleb128 0x13
+ 741 00cc 00       		.byte	0
+ 742 00cd 00       		.byte	0
+ 743 00ce 0E       		.uleb128 0xe
+ 744 00cf 8A8201   		.uleb128 0x410a
+ 745 00d2 00       		.byte	0
+ 746 00d3 02       		.uleb128 0x2
+ 747 00d4 18       		.uleb128 0x18
+ 748 00d5 9142     		.uleb128 0x2111
+ 749 00d7 18       		.uleb128 0x18
+ 750 00d8 00       		.byte	0
+ 751 00d9 00       		.byte	0
+ 752 00da 0F       		.uleb128 0xf
+ 753 00db 898201   		.uleb128 0x4109
+ 754 00de 01       		.byte	0x1
+ 755 00df 11       		.uleb128 0x11
+ 756 00e0 01       		.uleb128 0x1
+ 757 00e1 31       		.uleb128 0x31
+ 758 00e2 13       		.uleb128 0x13
+ 759 00e3 00       		.byte	0
+ 760 00e4 00       		.byte	0
+ 761 00e5 10       		.uleb128 0x10
+ 762 00e6 34       		.uleb128 0x34
+ 763 00e7 00       		.byte	0
+ 764 00e8 03       		.uleb128 0x3
+ 765 00e9 0E       		.uleb128 0xe
+ 766 00ea 3A       		.uleb128 0x3a
+ 767 00eb 0B       		.uleb128 0xb
+ 768 00ec 3B       		.uleb128 0x3b
+ 769 00ed 0B       		.uleb128 0xb
+ 770 00ee 49       		.uleb128 0x49
+ 771 00ef 13       		.uleb128 0x13
+ 772 00f0 3F       		.uleb128 0x3f
+ 773 00f1 19       		.uleb128 0x19
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 20
+
+
+ 774 00f2 02       		.uleb128 0x2
+ 775 00f3 18       		.uleb128 0x18
+ 776 00f4 00       		.byte	0
+ 777 00f5 00       		.byte	0
+ 778 00f6 00       		.byte	0
+ 779              		.section	.debug_loc,"",%progbits
+ 780              	.Ldebug_loc0:
+ 781              	.LLST0:
+ 782 0000 00000000 		.4byte	.LVL0
+ 783 0004 10000000 		.4byte	.LVL1
+ 784 0008 0100     		.2byte	0x1
+ 785 000a 50       		.byte	0x50
+ 786 000b 10000000 		.4byte	.LVL1
+ 787 000f 1C000000 		.4byte	.LFE4
+ 788 0013 0400     		.2byte	0x4
+ 789 0015 F3       		.byte	0xf3
+ 790 0016 01       		.uleb128 0x1
+ 791 0017 50       		.byte	0x50
+ 792 0018 9F       		.byte	0x9f
+ 793 0019 00000000 		.4byte	0
+ 794 001d 00000000 		.4byte	0
+ 795              	.LLST1:
+ 796 0021 08000000 		.4byte	.LVL3
+ 797 0025 0C000000 		.4byte	.LVL4
+ 798 0029 0300     		.2byte	0x3
+ 799 002b 73       		.byte	0x73
+ 800 002c 06       		.sleb128 6
+ 801 002d 9F       		.byte	0x9f
+ 802 002e 0C000000 		.4byte	.LVL4
+ 803 0032 0E000000 		.4byte	.LVL5
+ 804 0036 0700     		.2byte	0x7
+ 805 0038 73       		.byte	0x73
+ 806 0039 868080B8 		.sleb128 -1224736762
+ 806      7B
+ 807 003e 9F       		.byte	0x9f
+ 808 003f 0E000000 		.4byte	.LVL5
+ 809 0043 12000000 		.4byte	.LVL6
+ 810 0047 0700     		.2byte	0x7
+ 811 0049 73       		.byte	0x73
+ 812 004a 808080B8 		.sleb128 -1224736768
+ 812      7B
+ 813 004f 9F       		.byte	0x9f
+ 814 0050 00000000 		.4byte	0
+ 815 0054 00000000 		.4byte	0
+ 816              	.LLST2:
+ 817 0058 00000000 		.4byte	.LVL7
+ 818 005c 12000000 		.4byte	.LVL8
+ 819 0060 0100     		.2byte	0x1
+ 820 0062 50       		.byte	0x50
+ 821 0063 12000000 		.4byte	.LVL8
+ 822 0067 20000000 		.4byte	.LFE5
+ 823 006b 0400     		.2byte	0x4
+ 824 006d F3       		.byte	0xf3
+ 825 006e 01       		.uleb128 0x1
+ 826 006f 50       		.byte	0x50
+ 827 0070 9F       		.byte	0x9f
+ 828 0071 00000000 		.4byte	0
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 21
+
+
+ 829 0075 00000000 		.4byte	0
+ 830              		.section	.debug_aranges,"",%progbits
+ 831 0000 54000000 		.4byte	0x54
+ 832 0004 0200     		.2byte	0x2
+ 833 0006 00000000 		.4byte	.Ldebug_info0
+ 834 000a 04       		.byte	0x4
+ 835 000b 00       		.byte	0
+ 836 000c 0000     		.2byte	0
+ 837 000e 0000     		.2byte	0
+ 838 0010 00000000 		.4byte	.LFB1
+ 839 0014 1C000000 		.4byte	.LFE1-.LFB1
+ 840 0018 00000000 		.4byte	.LFB3
+ 841 001c 1C000000 		.4byte	.LFE3-.LFB3
+ 842 0020 00000000 		.4byte	.LFB4
+ 843 0024 1C000000 		.4byte	.LFE4-.LFB4
+ 844 0028 00000000 		.4byte	.LFB6
+ 845 002c 0C000000 		.4byte	.LFE6-.LFB6
+ 846 0030 00000000 		.4byte	.LFB7
+ 847 0034 24000000 		.4byte	.LFE7-.LFB7
+ 848 0038 00000000 		.4byte	.LFB5
+ 849 003c 20000000 		.4byte	.LFE5-.LFB5
+ 850 0040 00000000 		.4byte	.LFB0
+ 851 0044 30000000 		.4byte	.LFE0-.LFB0
+ 852 0048 00000000 		.4byte	.LFB2
+ 853 004c 24000000 		.4byte	.LFE2-.LFB2
+ 854 0050 00000000 		.4byte	0
+ 855 0054 00000000 		.4byte	0
+ 856              		.section	.debug_ranges,"",%progbits
+ 857              	.Ldebug_ranges0:
+ 858 0000 00000000 		.4byte	.LFB1
+ 859 0004 1C000000 		.4byte	.LFE1
+ 860 0008 00000000 		.4byte	.LFB3
+ 861 000c 1C000000 		.4byte	.LFE3
+ 862 0010 00000000 		.4byte	.LFB4
+ 863 0014 1C000000 		.4byte	.LFE4
+ 864 0018 00000000 		.4byte	.LFB6
+ 865 001c 0C000000 		.4byte	.LFE6
+ 866 0020 00000000 		.4byte	.LFB7
+ 867 0024 24000000 		.4byte	.LFE7
+ 868 0028 00000000 		.4byte	.LFB5
+ 869 002c 20000000 		.4byte	.LFE5
+ 870 0030 00000000 		.4byte	.LFB0
+ 871 0034 30000000 		.4byte	.LFE0
+ 872 0038 00000000 		.4byte	.LFB2
+ 873 003c 24000000 		.4byte	.LFE2
+ 874 0040 00000000 		.4byte	0
+ 875 0044 00000000 		.4byte	0
+ 876              		.section	.debug_line,"",%progbits
+ 877              	.Ldebug_line0:
+ 878 0000 DF000000 		.section	.debug_str,"MS",%progbits,1
+ 878      02004400 
+ 878      00000201 
+ 878      FB0E0D00 
+ 878      01010101 
+ 879              	.LASF16:
+ 880 0000 56444143 		.ascii	"VDAC8_2_SetSpeed\000"
+ 880      385F325F 
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 22
+
+
+ 880      53657453 
+ 880      70656564 
+ 880      00
+ 881              	.LASF23:
+ 882 0011 56444143 		.ascii	"VDAC8_2_Init\000"
+ 882      385F325F 
+ 882      496E6974 
+ 882      00
+ 883              	.LASF19:
+ 884 001e 76616C75 		.ascii	"value\000"
+ 884      6500
+ 885              	.LASF29:
+ 886 0024 56444143 		.ascii	"VDAC8_2_initVar\000"
+ 886      385F325F 
+ 886      696E6974 
+ 886      56617200 
+ 887              	.LASF14:
+ 888 0034 56444143 		.ascii	"VDAC8_2_Enable\000"
+ 888      385F325F 
+ 888      456E6162 
+ 888      6C6500
+ 889              	.LASF26:
+ 890 0043 47656E65 		.ascii	"Generated_Source\\PSoC5\\VDAC8_2.c\000"
+ 890      72617465 
+ 890      645F536F 
+ 890      75726365 
+ 890      5C50536F 
+ 891              	.LASF9:
+ 892 0064 666C6F61 		.ascii	"float\000"
+ 892      7400
+ 893              	.LASF1:
+ 894 006a 756E7369 		.ascii	"unsigned char\000"
+ 894      676E6564 
+ 894      20636861 
+ 894      7200
+ 895              	.LASF25:
+ 896 0078 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 896      43313120 
+ 896      352E342E 
+ 896      31203230 
+ 896      31363036 
+ 897 00ab 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 897      20726576 
+ 897      6973696F 
+ 897      6E203233 
+ 897      37373135 
+ 898 00de 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 898      66756E63 
+ 898      74696F6E 
+ 898      2D736563 
+ 898      74696F6E 
+ 899              	.LASF13:
+ 900 0106 72656738 		.ascii	"reg8\000"
+ 900      00
+ 901              	.LASF5:
+ 902 010b 6C6F6E67 		.ascii	"long unsigned int\000"
+ 902      20756E73 
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 23
+
+
+ 902      69676E65 
+ 902      6420696E 
+ 902      7400
+ 903              	.LASF3:
+ 904 011d 73686F72 		.ascii	"short unsigned int\000"
+ 904      7420756E 
+ 904      7369676E 
+ 904      65642069 
+ 904      6E7400
+ 905              	.LASF20:
+ 906 0130 56444143 		.ascii	"VDAC8_2_DacTrim\000"
+ 906      385F325F 
+ 906      44616354 
+ 906      72696D00 
+ 907              	.LASF15:
+ 908 0140 56444143 		.ascii	"VDAC8_2_Stop\000"
+ 908      385F325F 
+ 908      53746F70 
+ 908      00
+ 909              	.LASF22:
+ 910 014d 72616E67 		.ascii	"range\000"
+ 910      6500
+ 911              	.LASF21:
+ 912 0153 56444143 		.ascii	"VDAC8_2_SetRange\000"
+ 912      385F325F 
+ 912      53657452 
+ 912      616E6765 
+ 912      00
+ 913              	.LASF10:
+ 914 0164 646F7562 		.ascii	"double\000"
+ 914      6C6500
+ 915              	.LASF17:
+ 916 016b 56444143 		.ascii	"VDAC8_2_SetValue\000"
+ 916      385F325F 
+ 916      53657456 
+ 916      616C7565 
+ 916      00
+ 917              	.LASF24:
+ 918 017c 56444143 		.ascii	"VDAC8_2_Start\000"
+ 918      385F325F 
+ 918      53746172 
+ 918      7400
+ 919              	.LASF8:
+ 920 018a 756E7369 		.ascii	"unsigned int\000"
+ 920      676E6564 
+ 920      20696E74 
+ 920      00
+ 921              	.LASF7:
+ 922 0197 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 922      206C6F6E 
+ 922      6720756E 
+ 922      7369676E 
+ 922      65642069 
+ 923              	.LASF28:
+ 924 01ae 6D6F6465 		.ascii	"mode\000"
+ 924      00
+ 925              	.LASF18:
+ARM GAS  C:\Users\caxmi\AppData\Local\Temp\ccozxDZt.s 			page 24
+
+
+ 926 01b3 73706565 		.ascii	"speed\000"
+ 926      6400
+ 927              	.LASF27:
+ 928 01b9 443A5C43 		.ascii	"D:\\Coms Digitales\\Labs\\Digitales\\Lab1.2.cydsn\000"
+ 928      6F6D7320 
+ 928      44696769 
+ 928      74616C65 
+ 928      735C4C61 
+ 929              	.LASF6:
+ 930 01e7 6C6F6E67 		.ascii	"long long int\000"
+ 930      206C6F6E 
+ 930      6720696E 
+ 930      7400
+ 931              	.LASF11:
+ 932 01f5 63686172 		.ascii	"char\000"
+ 932      00
+ 933              	.LASF2:
+ 934 01fa 73686F72 		.ascii	"short int\000"
+ 934      7420696E 
+ 934      7400
+ 935              	.LASF12:
+ 936 0204 75696E74 		.ascii	"uint8\000"
+ 936      3800
+ 937              	.LASF4:
+ 938 020a 6C6F6E67 		.ascii	"long int\000"
+ 938      20696E74 
+ 938      00
+ 939              	.LASF0:
+ 940 0213 7369676E 		.ascii	"signed char\000"
+ 940      65642063 
+ 940      68617200 
+ 941              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
