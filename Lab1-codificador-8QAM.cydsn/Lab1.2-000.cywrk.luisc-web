@@ -11,17 +11,16 @@
 </CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
 </dataGuid>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Lab1.2-000\Lab2-decodificador-8QAM\Source Files\main.c">
 <ExpandedNodeIds>
 <v>Lab1.2-000</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\TopDesign</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\Pins</v>
@@ -51,49 +50,37 @@
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\Directives</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\Flash Security</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\EEPROM</v>
-<v>Lab1.2-000\Lab2-decodificador-8QAM\Header Files</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Header Files\cyapicallbacks.h</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Source Files</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Source Files\main.c</v>
-<v>Lab1.2-000\Lab2-decodificador-8QAM\Generated_Source</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Generated_Source\PSoC5</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Generated_Source\PSoC5\DAC_2</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Lab1.2-000</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\TopDesign</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\Pins</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\Analog</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\Clocks</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\Interrupts</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\DMA</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\System</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\Directives</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\Flash Security</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Lab1-codificador-8QAM.cydwr\EEPROM</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Header Files</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Header Files\cyapicallbacks.h</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Source Files</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Source Files\main.c</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\Clock_1</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\cy_boot</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\DAC_1</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\DAC_2</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\I</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\Pin_1</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\Pin_2</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\Pin_3</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\Pin_4</v>
-<v>Lab1.2-000\Lab1-codificador-8QAM\Generated_Source\PSoC5\Pin_5</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\TopDesign</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\Pins</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\Analog</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\Clocks</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\Interrupts</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\DMA</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\System</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\Directives</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\Flash Security</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Lab2-decodificador-8QAM.cydwr\EEPROM</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Header Files</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Source Files</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Source Files\main.c</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\Generated_Source</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Lab1.2-000\Lab2-decodificador-8QAM">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Lab1.2-000\Lab2-decodificador-8QAM\TopDesign\TopDesign.cysch">
 <ExpandedNodeIds>
 <v>Lab1.2-000</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\Registro</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\Registro\Registro.cysch</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\Registro\Registro.cysym</v>
@@ -115,6 +102,14 @@
 <VisibleNodeIds>
 <v>Lab1.2-000</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\Registro</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\Registro\Registro.cysch</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\Registro\Registro.cysym</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\RP</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\RP\RP.cysch</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\RP\RP.cysym</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\TopDesign</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\TopDesign\TopDesign.cysch</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Registro</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\Registro\Registro.cysch</v>
@@ -171,6 +166,52 @@
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_1.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_1_Bypass.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_1_INT.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_1_IRQ.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_1_PM.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_1_theACLK.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_2.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_2_Bypass.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_2_INT.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_2_IRQ.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_2_PM.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_2_theACLK.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\DAC_1.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\DAC_1_PM.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\DAC_2.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\DAC_2_PM.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\I.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_1.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_1_PM.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_2.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_2_PM.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_3.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_4.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_5.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_6.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_7.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_8.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Q.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\S1.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\S2.lst</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.elf</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.hex</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.map</v>
@@ -223,10 +264,42 @@
 <v>Lab1.2-000\Lab1-codificador-8QAM\PSoC 5LP Architecture TRM</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\CY8C58LP Family Datasheet</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\System Reference Guides</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\System Reference Guides\cy_boot_v6_0</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\and_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\BasicCounter_v1_0</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\BasicCounter_v1_0\BasicCounter_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_clock_v2_20.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_constant_v1_0</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_pins_v2_20</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\DigitalComp_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\LUT_v1_60.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\not_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\VDAC8_v1_90</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\VDAC8_v1_90\VDAC8_v1_90.pdf</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\PSoC 5LP Architecture TRM</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CY8C58LP Family Datasheet</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\System Reference Guides</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\System Reference Guides\cy_boot_v6_0</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\ADC_SAR_v3_10</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\ADC_SAR_v3_10\ADC_SAR_v3_10.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\and_v1_0.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\BasicCounter_v1_0</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\BasicCounter_v1_0\BasicCounter_v1_0.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\cy_clock_v2_20.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\cy_constant_v1_0</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\cy_pins_v2_20</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\DigitalComp_v1_0.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\LUT_v1_60.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\not_v1_0.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\OpAmp_v1_90</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\OpAmp_v1_90\OpAmp_v1_90.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\VDAC8_v1_90</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\VDAC8_v1_90\VDAC8_v1_90.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Lab1.2-000</v>
@@ -234,10 +307,31 @@
 <v>Lab1.2-000\Lab1-codificador-8QAM\PSoC 5LP Architecture TRM</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\CY8C58LP Family Datasheet</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\System Reference Guides</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\System Reference Guides\cy_boot_v6_0</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\and_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\BasicCounter_v1_0</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\BasicCounter_v1_0\BasicCounter_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_clock_v2_20.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_constant_v1_0</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_pins_v2_20</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\DigitalComp_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\LUT_v1_60.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\not_v1_0.pdf</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\VDAC8_v1_90</v>
+<v>Lab1.2-000\Lab1-codificador-8QAM\VDAC8_v1_90\VDAC8_v1_90.pdf</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\PSoC 5LP Architecture TRM</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CY8C58LP Family Datasheet</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\System Reference Guides</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\System Reference Guides\cy_boot_v6_0</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\ADC_SAR_v3_10</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\ADC_SAR_v3_10\ADC_SAR_v3_10.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\and_v1_0.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\BasicCounter_v1_0</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\BasicCounter_v1_0\BasicCounter_v1_0.pdf</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\cy_clock_v2_20.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>

@@ -1,0 +1,7 @@
+D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab1-codificador-8QAM.cydsn\Lab1-codificador-8QAM.cyprj|831b0400-d717-496c-b855-ca6ccc40e0a5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|6207dd8d-ddba-4cff-9430-8ad34cd4f380
+D:\Users\luisc-web\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|d540e15c-acd1-40c8-b998-7960fe16f4f5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|77734a46-e977-4ff8-aaa4-49a94a3f49f5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|d735e162-baad-4a21-9a9d-9d8227ceb1ab
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|5f436510-5cf8-4a06-b8e7-47fc097185a7
+D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\Lab2-decodificador-8QAM.cyprj|e3b35fa2-3b16-4704-9aea-bb4e86f229f5

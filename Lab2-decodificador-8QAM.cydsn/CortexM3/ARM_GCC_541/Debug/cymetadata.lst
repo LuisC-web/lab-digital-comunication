@@ -1,0 +1,1124 @@
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 600
+  28              	cy_meta_configecc:
+  29 0000 07       		.byte	7
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 02       		.byte	2
+  34 0005 5A       		.byte	90
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 01       		.byte	1
+  38 0009 5B       		.byte	91
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 05       		.byte	5
+  42 000d 05       		.byte	5
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 27       		.byte	39
+  46 0011 06       		.byte	6
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 1F       		.byte	31
+  50 0015 07       		.byte	7
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 04       		.byte	4
+  54 0019 09       		.byte	9
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 02       		.byte	2
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 2
+
+
+  58 001d 0B       		.byte	11
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 04       		.byte	4
+  62 0021 15       		.byte	21
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 1E       		.byte	30
+  66 0025 16       		.byte	22
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 18       		.byte	24
+  70 0029 17       		.byte	23
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 02       		.byte	2
+  74 002d 1B       		.byte	27
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 03       		.byte	3
+  78 0031 40       		.byte	64
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 06       		.byte	6
+  82 0035 41       		.byte	65
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 04       		.byte	4
+  86 0039 42       		.byte	66
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 07       		.byte	7
+  90 003d 43       		.byte	67
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 0A       		.byte	10
+  94 0041 45       		.byte	69
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 0A       		.byte	10
+  98 0045 46       		.byte	70
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 09       		.byte	9
+ 102 0049 47       		.byte	71
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 06       		.byte	6
+ 106 004d 48       		.byte	72
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 09       		.byte	9
+ 110 0051 49       		.byte	73
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 06       		.byte	6
+ 114 0055 4C       		.byte	76
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 05       		.byte	5
+ 118 0059 4D       		.byte	77
+ 119 005a 01       		.byte	1
+ 120 005b 40       		.byte	64
+ 121 005c 01       		.byte	1
+ 122 005d 51       		.byte	81
+ 123 005e 01       		.byte	1
+ 124 005f 40       		.byte	64
+ 125 0060 00       		.byte	0
+ 126 0061 80       		.byte	-128
+ 127 0062 01       		.byte	1
+ 128 0063 C0       		.byte	-64
+ 129 0064 10       		.byte	16
+ 130 0065 8D       		.byte	-115
+ 131 0066 11       		.byte	17
+ 132 0067 94       		.byte	-108
+ 133 0068 18       		.byte	24
+ 134 0069 04       		.byte	4
+ 135 006a 19       		.byte	25
+ 136 006b 04       		.byte	4
+ 137 006c 60       		.byte	96
+ 138 006d 08       		.byte	8
+ 139 006e 8F       		.byte	-113
+ 140 006f 01       		.byte	1
+ 141 0070 97       		.byte	-105
+ 142 0071 01       		.byte	1
+ 143 0072 27       		.byte	39
+ 144 0073 21       		.byte	33
+ 145 0074 87       		.byte	-121
+ 146 0075 20       		.byte	32
+ 147 0076 89       		.byte	-119
+ 148 0077 02       		.byte	2
+ 149 0078 8E       		.byte	-114
+ 150 0079 10       		.byte	16
+ 151 007a E4       		.byte	-28
+ 152 007b 08       		.byte	8
+ 153 007c E6       		.byte	-26
+ 154 007d 20       		.byte	32
+ 155 007e 10       		.byte	16
+ 156 007f 52       		.byte	82
+ 157 0080 12       		.byte	18
+ 158 0081 29       		.byte	41
+ 159 0082 15       		.byte	21
+ 160 0083 01       		.byte	1
+ 161 0084 16       		.byte	22
+ 162 0085 36       		.byte	54
+ 163 0086 17       		.byte	23
+ 164 0087 02       		.byte	2
+ 165 0088 18       		.byte	24
+ 166 0089 04       		.byte	4
+ 167 008a 19       		.byte	25
+ 168 008b 06       		.byte	6
+ 169 008c 1A       		.byte	26
+ 170 008d 0A       		.byte	10
+ 171 008e 1B       		.byte	27
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 4
+
+
+ 172 008f 01       		.byte	1
+ 173 0090 1E       		.byte	30
+ 174 0091 05       		.byte	5
+ 175 0092 26       		.byte	38
+ 176 0093 56       		.byte	86
+ 177 0094 2A       		.byte	42
+ 178 0095 56       		.byte	86
+ 179 0096 2D       		.byte	45
+ 180 0097 07       		.byte	7
+ 181 0098 30       		.byte	48
+ 182 0099 04       		.byte	4
+ 183 009a 32       		.byte	50
+ 184 009b 60       		.byte	96
+ 185 009c 33       		.byte	51
+ 186 009d 04       		.byte	4
+ 187 009e 34       		.byte	52
+ 188 009f 18       		.byte	24
+ 189 00a0 35       		.byte	53
+ 190 00a1 03       		.byte	3
+ 191 00a2 36       		.byte	54
+ 192 00a3 03       		.byte	3
+ 193 00a4 3A       		.byte	58
+ 194 00a5 A8       		.byte	-88
+ 195 00a6 3E       		.byte	62
+ 196 00a7 01       		.byte	1
+ 197 00a8 58       		.byte	88
+ 198 00a9 04       		.byte	4
+ 199 00aa 59       		.byte	89
+ 200 00ab 04       		.byte	4
+ 201 00ac 5C       		.byte	92
+ 202 00ad 88       		.byte	-120
+ 203 00ae 5F       		.byte	95
+ 204 00af 01       		.byte	1
+ 205 00b0 86       		.byte	-122
+ 206 00b1 01       		.byte	1
+ 207 00b2 92       		.byte	-110
+ 208 00b3 02       		.byte	2
+ 209 00b4 9E       		.byte	-98
+ 210 00b5 04       		.byte	4
+ 211 00b6 9F       		.byte	-97
+ 212 00b7 02       		.byte	2
+ 213 00b8 A7       		.byte	-89
+ 214 00b9 01       		.byte	1
+ 215 00ba B0       		.byte	-80
+ 216 00bb 04       		.byte	4
+ 217 00bc B1       		.byte	-79
+ 218 00bd 02       		.byte	2
+ 219 00be B2       		.byte	-78
+ 220 00bf 01       		.byte	1
+ 221 00c0 B4       		.byte	-76
+ 222 00c1 02       		.byte	2
+ 223 00c2 B7       		.byte	-73
+ 224 00c3 01       		.byte	1
+ 225 00c4 D8       		.byte	-40
+ 226 00c5 0A       		.byte	10
+ 227 00c6 D9       		.byte	-39
+ 228 00c7 04       		.byte	4
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 5
+
+
+ 229 00c8 DC       		.byte	-36
+ 230 00c9 88       		.byte	-120
+ 231 00ca DF       		.byte	-33
+ 232 00cb 01       		.byte	1
+ 233 00cc 01       		.byte	1
+ 234 00cd 08       		.byte	8
+ 235 00ce 09       		.byte	9
+ 236 00cf 82       		.byte	-126
+ 237 00d0 0E       		.byte	14
+ 238 00d1 AA       		.byte	-86
+ 239 00d2 17       		.byte	23
+ 240 00d3 28       		.byte	40
+ 241 00d4 18       		.byte	24
+ 242 00d5 04       		.byte	4
+ 243 00d6 19       		.byte	25
+ 244 00d7 02       		.byte	2
+ 245 00d8 1A       		.byte	26
+ 246 00d9 20       		.byte	32
+ 247 00da 1E       		.byte	30
+ 248 00db AA       		.byte	-86
+ 249 00dc 1F       		.byte	31
+ 250 00dd 01       		.byte	1
+ 251 00de 21       		.byte	33
+ 252 00df 82       		.byte	-126
+ 253 00e0 27       		.byte	39
+ 254 00e1 28       		.byte	40
+ 255 00e2 29       		.byte	41
+ 256 00e3 08       		.byte	8
+ 257 00e4 2F       		.byte	47
+ 258 00e5 01       		.byte	1
+ 259 00e6 31       		.byte	49
+ 260 00e7 80       		.byte	-128
+ 261 00e8 37       		.byte	55
+ 262 00e9 28       		.byte	40
+ 263 00ea 7B       		.byte	123
+ 264 00eb 22       		.byte	34
+ 265 00ec 7F       		.byte	127
+ 266 00ed 02       		.byte	2
+ 267 00ee 85       		.byte	-123
+ 268 00ef 08       		.byte	8
+ 269 00f0 8C       		.byte	-116
+ 270 00f1 04       		.byte	4
+ 271 00f2 8D       		.byte	-115
+ 272 00f3 02       		.byte	2
+ 273 00f4 96       		.byte	-106
+ 274 00f5 20       		.byte	32
+ 275 00f6 A5       		.byte	-91
+ 276 00f7 02       		.byte	2
+ 277 00f8 A7       		.byte	-89
+ 278 00f9 20       		.byte	32
+ 279 00fa C0       		.byte	-64
+ 280 00fb 04       		.byte	4
+ 281 00fc C2       		.byte	-62
+ 282 00fd F9       		.byte	-7
+ 283 00fe C4       		.byte	-60
+ 284 00ff 60       		.byte	96
+ 285 0100 CA       		.byte	-54
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 6
+
+
+ 286 0101 12       		.byte	18
+ 287 0102 CC       		.byte	-52
+ 288 0103 68       		.byte	104
+ 289 0104 DE       		.byte	-34
+ 290 0105 1A       		.byte	26
+ 291 0106 E6       		.byte	-26
+ 292 0107 04       		.byte	4
+ 293 0108 EE       		.byte	-18
+ 294 0109 04       		.byte	4
+ 295 010a E0       		.byte	-32
+ 296 010b 40       		.byte	64
+ 297 010c E4       		.byte	-28
+ 298 010d 40       		.byte	64
+ 299 010e E6       		.byte	-26
+ 300 010f 04       		.byte	4
+ 301 0110 EE       		.byte	-18
+ 302 0111 04       		.byte	4
+ 303 0112 E0       		.byte	-32
+ 304 0113 40       		.byte	64
+ 305 0114 E4       		.byte	-28
+ 306 0115 08       		.byte	8
+ 307 0116 8B       		.byte	-117
+ 308 0117 02       		.byte	2
+ 309 0118 A7       		.byte	-89
+ 310 0119 02       		.byte	2
+ 311 011a B1       		.byte	-79
+ 312 011b 20       		.byte	32
+ 313 011c E4       		.byte	-28
+ 314 011d 80       		.byte	-128
+ 315 011e 00       		.byte	0
+ 316 011f 80       		.byte	-128
+ 317 0120 02       		.byte	2
+ 318 0121 40       		.byte	64
+ 319 0122 04       		.byte	4
+ 320 0123 40       		.byte	64
+ 321 0124 06       		.byte	6
+ 322 0125 80       		.byte	-128
+ 323 0126 14       		.byte	20
+ 324 0127 01       		.byte	1
+ 325 0128 15       		.byte	21
+ 326 0129 01       		.byte	1
+ 327 012a 16       		.byte	22
+ 328 012b 26       		.byte	38
+ 329 012c 18       		.byte	24
+ 330 012d 38       		.byte	56
+ 331 012e 1A       		.byte	26
+ 332 012f 03       		.byte	3
+ 333 0130 1C       		.byte	28
+ 334 0131 07       		.byte	7
+ 335 0132 1D       		.byte	29
+ 336 0133 01       		.byte	1
+ 337 0134 1E       		.byte	30
+ 338 0135 18       		.byte	24
+ 339 0136 24       		.byte	36
+ 340 0137 02       		.byte	2
+ 341 0138 26       		.byte	38
+ 342 0139 0D       		.byte	13
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 7
+
+
+ 343 013a 28       		.byte	40
+ 344 013b 02       		.byte	2
+ 345 013c 2A       		.byte	42
+ 346 013d 34       		.byte	52
+ 347 013e 31       		.byte	49
+ 348 013f 01       		.byte	1
+ 349 0140 32       		.byte	50
+ 350 0141 40       		.byte	64
+ 351 0142 34       		.byte	52
+ 352 0143 80       		.byte	-128
+ 353 0144 36       		.byte	54
+ 354 0145 3F       		.byte	63
+ 355 0146 3E       		.byte	62
+ 356 0147 50       		.byte	80
+ 357 0148 58       		.byte	88
+ 358 0149 04       		.byte	4
+ 359 014a 59       		.byte	89
+ 360 014b 04       		.byte	4
+ 361 014c 5C       		.byte	92
+ 362 014d 88       		.byte	-120
+ 363 014e 5F       		.byte	95
+ 364 014f 01       		.byte	1
+ 365 0150 9A       		.byte	-102
+ 366 0151 01       		.byte	1
+ 367 0152 B2       		.byte	-78
+ 368 0153 01       		.byte	1
+ 369 0154 D8       		.byte	-40
+ 370 0155 04       		.byte	4
+ 371 0156 DC       		.byte	-36
+ 372 0157 08       		.byte	8
+ 373 0158 DF       		.byte	-33
+ 374 0159 01       		.byte	1
+ 375 015a 05       		.byte	5
+ 376 015b 04       		.byte	4
+ 377 015c 07       		.byte	7
+ 378 015d 40       		.byte	64
+ 379 015e 09       		.byte	9
+ 380 015f 20       		.byte	32
+ 381 0160 0E       		.byte	14
+ 382 0161 2A       		.byte	42
+ 383 0162 17       		.byte	23
+ 384 0163 28       		.byte	40
+ 385 0164 19       		.byte	25
+ 386 0165 08       		.byte	8
+ 387 0166 1D       		.byte	29
+ 388 0167 84       		.byte	-124
+ 389 0168 1F       		.byte	31
+ 390 0169 20       		.byte	32
+ 391 016a 27       		.byte	39
+ 392 016b 40       		.byte	64
+ 393 016c 35       		.byte	53
+ 394 016d 04       		.byte	4
+ 395 016e 37       		.byte	55
+ 396 016f 40       		.byte	64
+ 397 0170 7B       		.byte	123
+ 398 0171 02       		.byte	2
+ 399 0172 7F       		.byte	127
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 8
+
+
+ 400 0173 02       		.byte	2
+ 401 0174 85       		.byte	-123
+ 402 0175 80       		.byte	-128
+ 403 0176 9B       		.byte	-101
+ 404 0177 28       		.byte	40
+ 405 0178 9D       		.byte	-99
+ 406 0179 08       		.byte	8
+ 407 017a A2       		.byte	-94
+ 408 017b 15       		.byte	21
+ 409 017c A7       		.byte	-89
+ 410 017d 22       		.byte	34
+ 411 017e A9       		.byte	-87
+ 412 017f 80       		.byte	-128
+ 413 0180 C0       		.byte	-64
+ 414 0181 30       		.byte	48
+ 415 0182 C2       		.byte	-62
+ 416 0183 E2       		.byte	-30
+ 417 0184 C4       		.byte	-60
+ 418 0185 60       		.byte	96
+ 419 0186 CC       		.byte	-52
+ 420 0187 50       		.byte	80
+ 421 0188 DE       		.byte	-34
+ 422 0189 18       		.byte	24
+ 423 018a E4       		.byte	-28
+ 424 018b 80       		.byte	-128
+ 425 018c EE       		.byte	-18
+ 426 018d 80       		.byte	-128
+ 427 018e 33       		.byte	51
+ 428 018f 20       		.byte	32
+ 429 0190 35       		.byte	53
+ 430 0191 10       		.byte	16
+ 431 0192 CC       		.byte	-52
+ 432 0193 30       		.byte	48
+ 433 0194 63       		.byte	99
+ 434 0195 22       		.byte	34
+ 435 0196 66       		.byte	102
+ 436 0197 10       		.byte	16
+ 437 0198 9D       		.byte	-99
+ 438 0199 10       		.byte	16
+ 439 019a A7       		.byte	-89
+ 440 019b 20       		.byte	32
+ 441 019c D6       		.byte	-42
+ 442 019d 40       		.byte	64
+ 443 019e D8       		.byte	-40
+ 444 019f C0       		.byte	-64
+ 445 01a0 8A       		.byte	-118
+ 446 01a1 10       		.byte	16
+ 447 01a2 9D       		.byte	-99
+ 448 01a3 10       		.byte	16
+ 449 01a4 9E       		.byte	-98
+ 450 01a5 10       		.byte	16
+ 451 01a6 A7       		.byte	-89
+ 452 01a7 31       		.byte	49
+ 453 01a8 81       		.byte	-127
+ 454 01a9 10       		.byte	16
+ 455 01aa 87       		.byte	-121
+ 456 01ab 01       		.byte	1
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 9
+
+
+ 457 01ac 9D       		.byte	-99
+ 458 01ad 10       		.byte	16
+ 459 01ae A7       		.byte	-89
+ 460 01af 11       		.byte	17
+ 461 01b0 AB       		.byte	-85
+ 462 01b1 20       		.byte	32
+ 463 01b2 E6       		.byte	-26
+ 464 01b3 30       		.byte	48
+ 465 01b4 EE       		.byte	-18
+ 466 01b5 20       		.byte	32
+ 467 01b6 33       		.byte	51
+ 468 01b7 20       		.byte	32
+ 469 01b8 52       		.byte	82
+ 470 01b9 84       		.byte	-124
+ 471 01ba 57       		.byte	87
+ 472 01bb 83       		.byte	-125
+ 473 01bc 62       		.byte	98
+ 474 01bd 04       		.byte	4
+ 475 01be 63       		.byte	99
+ 476 01bf 02       		.byte	2
+ 477 01c0 64       		.byte	100
+ 478 01c1 04       		.byte	4
+ 479 01c2 CC       		.byte	-52
+ 480 01c3 08       		.byte	8
+ 481 01c4 D4       		.byte	-44
+ 482 01c5 06       		.byte	6
+ 483 01c6 D6       		.byte	-42
+ 484 01c7 06       		.byte	6
+ 485 01c8 D8       		.byte	-40
+ 486 01c9 03       		.byte	3
+ 487 01ca 1B       		.byte	27
+ 488 01cb 04       		.byte	4
+ 489 01cc 33       		.byte	51
+ 490 01cd 20       		.byte	32
+ 491 01ce 87       		.byte	-121
+ 492 01cf 20       		.byte	32
+ 493 01d0 8F       		.byte	-113
+ 494 01d1 80       		.byte	-128
+ 495 01d2 9C       		.byte	-100
+ 496 01d3 04       		.byte	4
+ 497 01d4 A6       		.byte	-90
+ 498 01d5 80       		.byte	-128
+ 499 01d6 A7       		.byte	-89
+ 500 01d7 A2       		.byte	-94
+ 501 01d8 C6       		.byte	-58
+ 502 01d9 08       		.byte	8
+ 503 01da CC       		.byte	-52
+ 504 01db 08       		.byte	8
+ 505 01dc E0       		.byte	-32
+ 506 01dd 02       		.byte	2
+ 507 01de 83       		.byte	-125
+ 508 01df 80       		.byte	-128
+ 509 01e0 8E       		.byte	-114
+ 510 01e1 80       		.byte	-128
+ 511 01e2 8F       		.byte	-113
+ 512 01e3 02       		.byte	2
+ 513 01e4 9C       		.byte	-100
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 10
+
+
+ 514 01e5 04       		.byte	4
+ 515 01e6 A6       		.byte	-90
+ 516 01e7 80       		.byte	-128
+ 517 01e8 A7       		.byte	-89
+ 518 01e9 02       		.byte	2
+ 519 01ea AB       		.byte	-85
+ 520 01eb 04       		.byte	4
+ 521 01ec E0       		.byte	-32
+ 522 01ed 02       		.byte	2
+ 523 01ee E4       		.byte	-28
+ 524 01ef 02       		.byte	2
+ 525 01f0 26       		.byte	38
+ 526 01f1 40       		.byte	64
+ 527 01f2 84       		.byte	-124
+ 528 01f3 04       		.byte	4
+ 529 01f4 AB       		.byte	-85
+ 530 01f5 10       		.byte	16
+ 531 01f6 C8       		.byte	-56
+ 532 01f7 20       		.byte	32
+ 533 01f8 E6       		.byte	-26
+ 534 01f9 40       		.byte	64
+ 535 01fa EE       		.byte	-18
+ 536 01fb 80       		.byte	-128
+ 537 01fc 0B       		.byte	11
+ 538 01fd 80       		.byte	-128
+ 539 01fe 5E       		.byte	94
+ 540 01ff 80       		.byte	-128
+ 541 0200 74       		.byte	116
+ 542 0201 04       		.byte	4
+ 543 0202 8B       		.byte	-117
+ 544 0203 40       		.byte	64
+ 545 0204 A0       		.byte	-96
+ 546 0205 04       		.byte	4
+ 547 0206 A2       		.byte	-94
+ 548 0207 40       		.byte	64
+ 549 0208 C2       		.byte	-62
+ 550 0209 10       		.byte	16
+ 551 020a D6       		.byte	-42
+ 552 020b 20       		.byte	32
+ 553 020c DE       		.byte	-34
+ 554 020d 20       		.byte	32
+ 555 020e 0B       		.byte	11
+ 556 020f 10       		.byte	16
+ 557 0210 1F       		.byte	31
+ 558 0211 80       		.byte	-128
+ 559 0212 9C       		.byte	-100
+ 560 0213 04       		.byte	4
+ 561 0214 A7       		.byte	-89
+ 562 0215 80       		.byte	-128
+ 563 0216 C2       		.byte	-62
+ 564 0217 08       		.byte	8
+ 565 0218 C6       		.byte	-58
+ 566 0219 01       		.byte	1
+ 567 021a 88       		.byte	-120
+ 568 021b 04       		.byte	4
+ 569 021c 9C       		.byte	-100
+ 570 021d 04       		.byte	4
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 11
+
+
+ 571 021e B3       		.byte	-77
+ 572 021f 10       		.byte	16
+ 573 0220 E4       		.byte	-28
+ 574 0221 01       		.byte	1
+ 575 0222 EE       		.byte	-18
+ 576 0223 01       		.byte	1
+ 577 0224 00       		.byte	0
+ 578 0225 0F       		.byte	15
+ 579 0226 00       		.byte	0
+ 580 0227 00       		.byte	0
+ 581 0228 00       		.byte	0
+ 582 0229 E0       		.byte	-32
+ 583 022a E0       		.byte	-32
+ 584 022b 00       		.byte	0
+ 585 022c E0       		.byte	-32
+ 586 022d 00       		.byte	0
+ 587 022e 14       		.byte	20
+ 588 022f 00       		.byte	0
+ 589 0230 00       		.byte	0
+ 590 0231 08       		.byte	8
+ 591 0232 08       		.byte	8
+ 592 0233 00       		.byte	0
+ 593 0234 08       		.byte	8
+ 594 0235 00       		.byte	0
+ 595 0236 00       		.byte	0
+ 596 0237 00       		.byte	0
+ 597 0238 10       		.byte	16
+ 598 0239 0B       		.byte	11
+ 599 023a 0B       		.byte	11
+ 600 023b 00       		.byte	0
+ 601 023c 00       		.byte	0
+ 602 023d 00       		.byte	0
+ 603 023e 80       		.byte	-128
+ 604 023f 00       		.byte	0
+ 605 0240 00       		.byte	0
+ 606 0241 BF       		.byte	-65
+ 607 0242 BF       		.byte	-65
+ 608 0243 00       		.byte	0
+ 609 0244 BF       		.byte	-65
+ 610 0245 00       		.byte	0
+ 611 0246 40       		.byte	64
+ 612 0247 00       		.byte	0
+ 613 0248 10       		.byte	16
+ 614 0249 04       		.byte	4
+ 615 024a 04       		.byte	4
+ 616 024b 00       		.byte	0
+ 617 024c 04       		.byte	4
+ 618 024d 00       		.byte	0
+ 619 024e 28       		.byte	40
+ 620 024f 00       		.byte	0
+ 621 0250 01       		.byte	1
+ 622 0251 00       		.byte	0
+ 623 0252 18       		.byte	24
+ 624 0253 01       		.byte	1
+ 625 0254 01       		.byte	1
+ 626 0255 00       		.byte	0
+ 627 0256 18       		.byte	24
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 12
+
+
+ 628 0257 01       		.byte	1
+ 629              		.section	.cywolatch,"a",%progbits
+ 630              		.align	2
+ 631              		.type	cy_meta_wonvl, %object
+ 632              		.size	cy_meta_wonvl, 4
+ 633              	cy_meta_wonvl:
+ 634 0000 BC       		.byte	-68
+ 635 0001 90       		.byte	-112
+ 636 0002 AC       		.byte	-84
+ 637 0003 AF       		.byte	-81
+ 638              		.section	.cycustnvl,"a",%progbits
+ 639              		.align	2
+ 640              		.type	cy_meta_custnvl, %object
+ 641              		.size	cy_meta_custnvl, 4
+ 642              	cy_meta_custnvl:
+ 643 0000 00       		.byte	0
+ 644 0001 00       		.byte	0
+ 645 0002 40       		.byte	64
+ 646 0003 05       		.byte	5
+ 647              		.section	.cymeta,"a",%progbits
+ 648              		.align	2
+ 649              		.type	cy_metadata, %object
+ 650              		.size	cy_metadata, 12
+ 651              	cy_metadata:
+ 652 0000 00       		.byte	0
+ 653 0001 01       		.byte	1
+ 654 0002 2E       		.byte	46
+ 655 0003 16       		.byte	22
+ 656 0004 10       		.byte	16
+ 657 0005 69       		.byte	105
+ 658 0006 00       		.byte	0
+ 659 0007 01       		.byte	1
+ 660 0008 00       		.byte	0
+ 661 0009 00       		.byte	0
+ 662 000a 00       		.byte	0
+ 663 000b 00       		.byte	0
+ 664              		.section	.cyflashprotect,"a",%progbits
+ 665              		.align	2
+ 666              		.type	cy_meta_flashprotect, %object
+ 667              		.size	cy_meta_flashprotect, 256
+ 668              	cy_meta_flashprotect:
+ 669 0000 00000000 		.space	256
+ 669      00000000 
+ 669      00000000 
+ 669      00000000 
+ 669      00000000 
+ 670              		.text
+ 671              	.Letext0:
+ 672              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 673              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 674              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 675              		.section	.debug_info,"",%progbits
+ 676              	.Ldebug_info0:
+ 677 0000 31010000 		.4byte	0x131
+ 678 0004 0400     		.2byte	0x4
+ 679 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 680 000a 04       		.byte	0x4
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 13
+
+
+ 681 000b 01       		.uleb128 0x1
+ 682 000c 24000000 		.4byte	.LASF17
+ 683 0010 0C       		.byte	0xc
+ 684 0011 02020000 		.4byte	.LASF18
+ 685 0015 25010000 		.4byte	.LASF19
+ 686 0019 00000000 		.4byte	.Ldebug_line0
+ 687 001d 02       		.uleb128 0x2
+ 688 001e 01       		.byte	0x1
+ 689 001f 06       		.byte	0x6
+ 690 0020 F6010000 		.4byte	.LASF0
+ 691 0024 03       		.uleb128 0x3
+ 692 0025 00000000 		.4byte	.LASF9
+ 693 0029 01       		.byte	0x1
+ 694 002a 1D       		.byte	0x1d
+ 695 002b 2F000000 		.4byte	0x2f
+ 696 002f 02       		.uleb128 0x2
+ 697 0030 01       		.byte	0x1
+ 698 0031 08       		.byte	0x8
+ 699 0032 16000000 		.4byte	.LASF1
+ 700 0036 02       		.uleb128 0x2
+ 701 0037 02       		.byte	0x2
+ 702 0038 05       		.byte	0x5
+ 703 0039 E3010000 		.4byte	.LASF2
+ 704 003d 02       		.uleb128 0x2
+ 705 003e 02       		.byte	0x2
+ 706 003f 07       		.byte	0x7
+ 707 0040 C4000000 		.4byte	.LASF3
+ 708 0044 02       		.uleb128 0x2
+ 709 0045 04       		.byte	0x4
+ 710 0046 05       		.byte	0x5
+ 711 0047 ED010000 		.4byte	.LASF4
+ 712 004b 02       		.uleb128 0x2
+ 713 004c 04       		.byte	0x4
+ 714 004d 07       		.byte	0x7
+ 715 004e B2000000 		.4byte	.LASF5
+ 716 0052 02       		.uleb128 0x2
+ 717 0053 08       		.byte	0x8
+ 718 0054 05       		.byte	0x5
+ 719 0055 D5010000 		.4byte	.LASF6
+ 720 0059 02       		.uleb128 0x2
+ 721 005a 08       		.byte	0x8
+ 722 005b 07       		.byte	0x7
+ 723 005c 06010000 		.4byte	.LASF7
+ 724 0060 04       		.uleb128 0x4
+ 725 0061 04       		.byte	0x4
+ 726 0062 05       		.byte	0x5
+ 727 0063 696E7400 		.ascii	"int\000"
+ 728 0067 02       		.uleb128 0x2
+ 729 0068 04       		.byte	0x4
+ 730 0069 07       		.byte	0x7
+ 731 006a F9000000 		.4byte	.LASF8
+ 732 006e 03       		.uleb128 0x3
+ 733 006f 1D010000 		.4byte	.LASF10
+ 734 0073 02       		.byte	0x2
+ 735 0074 18       		.byte	0x18
+ 736 0075 24000000 		.4byte	0x24
+ 737 0079 05       		.uleb128 0x5
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 14
+
+
+ 738 007a 91000000 		.4byte	0x91
+ 739 007e 8A000000 		.4byte	0x8a
+ 740 0082 06       		.uleb128 0x6
+ 741 0083 8A000000 		.4byte	0x8a
+ 742 0087 5702     		.2byte	0x257
+ 743 0089 00       		.byte	0
+ 744 008a 02       		.uleb128 0x2
+ 745 008b 04       		.byte	0x4
+ 746 008c 07       		.byte	0x7
+ 747 008d CC010000 		.4byte	.LASF11
+ 748 0091 07       		.uleb128 0x7
+ 749 0092 6E000000 		.4byte	0x6e
+ 750 0096 08       		.uleb128 0x8
+ 751 0097 E7000000 		.4byte	.LASF12
+ 752 009b 03       		.byte	0x3
+ 753 009c 1F       		.byte	0x1f
+ 754 009d A7000000 		.4byte	0xa7
+ 755 00a1 05       		.uleb128 0x5
+ 756 00a2 03       		.byte	0x3
+ 757 00a3 00000000 		.4byte	cy_meta_configecc
+ 758 00a7 07       		.uleb128 0x7
+ 759 00a8 79000000 		.4byte	0x79
+ 760 00ac 05       		.uleb128 0x5
+ 761 00ad 91000000 		.4byte	0x91
+ 762 00b1 BC000000 		.4byte	0xbc
+ 763 00b5 09       		.uleb128 0x9
+ 764 00b6 8A000000 		.4byte	0x8a
+ 765 00ba 03       		.byte	0x3
+ 766 00bb 00       		.byte	0
+ 767 00bc 08       		.uleb128 0x8
+ 768 00bd D7000000 		.4byte	.LASF13
+ 769 00c1 03       		.byte	0x3
+ 770 00c2 77       		.byte	0x77
+ 771 00c3 CD000000 		.4byte	0xcd
+ 772 00c7 05       		.uleb128 0x5
+ 773 00c8 03       		.byte	0x3
+ 774 00c9 00000000 		.4byte	cy_meta_custnvl
+ 775 00cd 07       		.uleb128 0x7
+ 776 00ce AC000000 		.4byte	0xac
+ 777 00d2 08       		.uleb128 0x8
+ 778 00d3 BE010000 		.4byte	.LASF14
+ 779 00d7 03       		.byte	0x3
+ 780 00d8 85       		.byte	0x85
+ 781 00d9 E3000000 		.4byte	0xe3
+ 782 00dd 05       		.uleb128 0x5
+ 783 00de 03       		.byte	0x3
+ 784 00df 00000000 		.4byte	cy_meta_wonvl
+ 785 00e3 07       		.uleb128 0x7
+ 786 00e4 AC000000 		.4byte	0xac
+ 787 00e8 05       		.uleb128 0x5
+ 788 00e9 91000000 		.4byte	0x91
+ 789 00ed F8000000 		.4byte	0xf8
+ 790 00f1 09       		.uleb128 0x9
+ 791 00f2 8A000000 		.4byte	0x8a
+ 792 00f6 FF       		.byte	0xff
+ 793 00f7 00       		.byte	0
+ 794 00f8 08       		.uleb128 0x8
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 15
+
+
+ 795 00f9 A9010000 		.4byte	.LASF15
+ 796 00fd 03       		.byte	0x3
+ 797 00fe 93       		.byte	0x93
+ 798 00ff 09010000 		.4byte	0x109
+ 799 0103 05       		.uleb128 0x5
+ 800 0104 03       		.byte	0x3
+ 801 0105 00000000 		.4byte	cy_meta_flashprotect
+ 802 0109 07       		.uleb128 0x7
+ 803 010a E8000000 		.4byte	0xe8
+ 804 010e 05       		.uleb128 0x5
+ 805 010f 91000000 		.4byte	0x91
+ 806 0113 1E010000 		.4byte	0x11e
+ 807 0117 09       		.uleb128 0x9
+ 808 0118 8A000000 		.4byte	0x8a
+ 809 011c 0B       		.byte	0xb
+ 810 011d 00       		.byte	0
+ 811 011e 08       		.uleb128 0x8
+ 812 011f 0A000000 		.4byte	.LASF16
+ 813 0123 03       		.byte	0x3
+ 814 0124 C0       		.byte	0xc0
+ 815 0125 2F010000 		.4byte	0x12f
+ 816 0129 05       		.uleb128 0x5
+ 817 012a 03       		.byte	0x3
+ 818 012b 00000000 		.4byte	cy_metadata
+ 819 012f 07       		.uleb128 0x7
+ 820 0130 0E010000 		.4byte	0x10e
+ 821 0134 00       		.byte	0
+ 822              		.section	.debug_abbrev,"",%progbits
+ 823              	.Ldebug_abbrev0:
+ 824 0000 01       		.uleb128 0x1
+ 825 0001 11       		.uleb128 0x11
+ 826 0002 01       		.byte	0x1
+ 827 0003 25       		.uleb128 0x25
+ 828 0004 0E       		.uleb128 0xe
+ 829 0005 13       		.uleb128 0x13
+ 830 0006 0B       		.uleb128 0xb
+ 831 0007 03       		.uleb128 0x3
+ 832 0008 0E       		.uleb128 0xe
+ 833 0009 1B       		.uleb128 0x1b
+ 834 000a 0E       		.uleb128 0xe
+ 835 000b 10       		.uleb128 0x10
+ 836 000c 17       		.uleb128 0x17
+ 837 000d 00       		.byte	0
+ 838 000e 00       		.byte	0
+ 839 000f 02       		.uleb128 0x2
+ 840 0010 24       		.uleb128 0x24
+ 841 0011 00       		.byte	0
+ 842 0012 0B       		.uleb128 0xb
+ 843 0013 0B       		.uleb128 0xb
+ 844 0014 3E       		.uleb128 0x3e
+ 845 0015 0B       		.uleb128 0xb
+ 846 0016 03       		.uleb128 0x3
+ 847 0017 0E       		.uleb128 0xe
+ 848 0018 00       		.byte	0
+ 849 0019 00       		.byte	0
+ 850 001a 03       		.uleb128 0x3
+ 851 001b 16       		.uleb128 0x16
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 16
+
+
+ 852 001c 00       		.byte	0
+ 853 001d 03       		.uleb128 0x3
+ 854 001e 0E       		.uleb128 0xe
+ 855 001f 3A       		.uleb128 0x3a
+ 856 0020 0B       		.uleb128 0xb
+ 857 0021 3B       		.uleb128 0x3b
+ 858 0022 0B       		.uleb128 0xb
+ 859 0023 49       		.uleb128 0x49
+ 860 0024 13       		.uleb128 0x13
+ 861 0025 00       		.byte	0
+ 862 0026 00       		.byte	0
+ 863 0027 04       		.uleb128 0x4
+ 864 0028 24       		.uleb128 0x24
+ 865 0029 00       		.byte	0
+ 866 002a 0B       		.uleb128 0xb
+ 867 002b 0B       		.uleb128 0xb
+ 868 002c 3E       		.uleb128 0x3e
+ 869 002d 0B       		.uleb128 0xb
+ 870 002e 03       		.uleb128 0x3
+ 871 002f 08       		.uleb128 0x8
+ 872 0030 00       		.byte	0
+ 873 0031 00       		.byte	0
+ 874 0032 05       		.uleb128 0x5
+ 875 0033 01       		.uleb128 0x1
+ 876 0034 01       		.byte	0x1
+ 877 0035 49       		.uleb128 0x49
+ 878 0036 13       		.uleb128 0x13
+ 879 0037 01       		.uleb128 0x1
+ 880 0038 13       		.uleb128 0x13
+ 881 0039 00       		.byte	0
+ 882 003a 00       		.byte	0
+ 883 003b 06       		.uleb128 0x6
+ 884 003c 21       		.uleb128 0x21
+ 885 003d 00       		.byte	0
+ 886 003e 49       		.uleb128 0x49
+ 887 003f 13       		.uleb128 0x13
+ 888 0040 2F       		.uleb128 0x2f
+ 889 0041 05       		.uleb128 0x5
+ 890 0042 00       		.byte	0
+ 891 0043 00       		.byte	0
+ 892 0044 07       		.uleb128 0x7
+ 893 0045 26       		.uleb128 0x26
+ 894 0046 00       		.byte	0
+ 895 0047 49       		.uleb128 0x49
+ 896 0048 13       		.uleb128 0x13
+ 897 0049 00       		.byte	0
+ 898 004a 00       		.byte	0
+ 899 004b 08       		.uleb128 0x8
+ 900 004c 34       		.uleb128 0x34
+ 901 004d 00       		.byte	0
+ 902 004e 03       		.uleb128 0x3
+ 903 004f 0E       		.uleb128 0xe
+ 904 0050 3A       		.uleb128 0x3a
+ 905 0051 0B       		.uleb128 0xb
+ 906 0052 3B       		.uleb128 0x3b
+ 907 0053 0B       		.uleb128 0xb
+ 908 0054 49       		.uleb128 0x49
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 17
+
+
+ 909 0055 13       		.uleb128 0x13
+ 910 0056 3F       		.uleb128 0x3f
+ 911 0057 19       		.uleb128 0x19
+ 912 0058 02       		.uleb128 0x2
+ 913 0059 18       		.uleb128 0x18
+ 914 005a 00       		.byte	0
+ 915 005b 00       		.byte	0
+ 916 005c 09       		.uleb128 0x9
+ 917 005d 21       		.uleb128 0x21
+ 918 005e 00       		.byte	0
+ 919 005f 49       		.uleb128 0x49
+ 920 0060 13       		.uleb128 0x13
+ 921 0061 2F       		.uleb128 0x2f
+ 922 0062 0B       		.uleb128 0xb
+ 923 0063 00       		.byte	0
+ 924 0064 00       		.byte	0
+ 925 0065 00       		.byte	0
+ 926              		.section	.debug_aranges,"",%progbits
+ 927 0000 14000000 		.4byte	0x14
+ 928 0004 0200     		.2byte	0x2
+ 929 0006 00000000 		.4byte	.Ldebug_info0
+ 930 000a 04       		.byte	0x4
+ 931 000b 00       		.byte	0
+ 932 000c 0000     		.2byte	0
+ 933 000e 0000     		.2byte	0
+ 934 0010 00000000 		.4byte	0
+ 935 0014 00000000 		.4byte	0
+ 936              		.section	.debug_line,"",%progbits
+ 937              	.Ldebug_line0:
+ 938 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 938      02003701 
+ 938      00000201 
+ 938      FB0E0D00 
+ 938      01010101 
+ 939              	.LASF9:
+ 940 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 940      6E74385F 
+ 940      7400
+ 941              	.LASF16:
+ 942 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 942      65746164 
+ 942      61746100 
+ 943              	.LASF1:
+ 944 0016 756E7369 		.ascii	"unsigned char\000"
+ 944      676E6564 
+ 944      20636861 
+ 944      7200
+ 945              	.LASF17:
+ 946 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 946      43313120 
+ 946      352E342E 
+ 946      31203230 
+ 946      31363036 
+ 947 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 947      20726576 
+ 947      6973696F 
+ 947      6E203233 
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 18
+
+
+ 947      37373135 
+ 948 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 948      66756E63 
+ 948      74696F6E 
+ 948      2D736563 
+ 948      74696F6E 
+ 949              	.LASF5:
+ 950 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 950      20756E73 
+ 950      69676E65 
+ 950      6420696E 
+ 950      7400
+ 951              	.LASF3:
+ 952 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 952      7420756E 
+ 952      7369676E 
+ 952      65642069 
+ 952      6E7400
+ 953              	.LASF13:
+ 954 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 954      6574615F 
+ 954      63757374 
+ 954      6E766C00 
+ 955              	.LASF12:
+ 956 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 956      6574615F 
+ 956      636F6E66 
+ 956      69676563 
+ 956      6300
+ 957              	.LASF8:
+ 958 00f9 756E7369 		.ascii	"unsigned int\000"
+ 958      676E6564 
+ 958      20696E74 
+ 958      00
+ 959              	.LASF7:
+ 960 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 960      206C6F6E 
+ 960      6720756E 
+ 960      7369676E 
+ 960      65642069 
+ 961              	.LASF10:
+ 962 011d 75696E74 		.ascii	"uint8_t\000"
+ 962      385F7400 
+ 963              	.LASF19:
+ 964 0125 443A5C55 		.ascii	"D:\\Users\\luisc-web\\Documents\\universidad\\7-sem"
+ 964      73657273 
+ 964      5C6C7569 
+ 964      73632D77 
+ 964      65625C44 
+ 965 0153 65737472 		.ascii	"estre\\comunicaciones-digitales\\lab-digital-comuni"
+ 965      655C636F 
+ 965      6D756E69 
+ 965      63616369 
+ 965      6F6E6573 
+ 966 0184 63617469 		.ascii	"cation\\Lab2-decodificador-8QAM.cydsn\000"
+ 966      6F6E5C4C 
+ 966      6162322D 
+ARM GAS  C:\Users\LUISC-~1\AppData\Local\Temp\cczaXy5N.s 			page 19
+
+
+ 966      6465636F 
+ 966      64696669 
+ 967              	.LASF15:
+ 968 01a9 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 968      6574615F 
+ 968      666C6173 
+ 968      6870726F 
+ 968      74656374 
+ 969              	.LASF14:
+ 970 01be 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 970      6574615F 
+ 970      776F6E76 
+ 970      6C00
+ 971              	.LASF11:
+ 972 01cc 73697A65 		.ascii	"sizetype\000"
+ 972      74797065 
+ 972      00
+ 973              	.LASF6:
+ 974 01d5 6C6F6E67 		.ascii	"long long int\000"
+ 974      206C6F6E 
+ 974      6720696E 
+ 974      7400
+ 975              	.LASF2:
+ 976 01e3 73686F72 		.ascii	"short int\000"
+ 976      7420696E 
+ 976      7400
+ 977              	.LASF4:
+ 978 01ed 6C6F6E67 		.ascii	"long int\000"
+ 978      20696E74 
+ 978      00
+ 979              	.LASF0:
+ 980 01f6 7369676E 		.ascii	"signed char\000"
+ 980      65642063 
+ 980      68617200 
+ 981              	.LASF18:
+ 982 0202 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 982      72617465 
+ 982      645F536F 
+ 982      75726365 
+ 982      5C50536F 
+ 983              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
