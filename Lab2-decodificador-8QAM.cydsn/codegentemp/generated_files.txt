@@ -47,15 +47,9 @@
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\S2_aliases.h" value="HEADER;;;;;S2" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\S2.c" value="SOURCE_C;CortexM3;;;;S2" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\S2.h" value="HEADER;;;;;S2" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_4_aliases.h" value="HEADER;;;;;Pin_4" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_4.c" value="SOURCE_C;CortexM3;;;;Pin_4" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_4.h" value="HEADER;;;;;Pin_4" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_5_aliases.h" value="HEADER;;;;;Pin_5" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_5.c" value="SOURCE_C;CortexM3;;;;Pin_5" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_5.h" value="HEADER;;;;;Pin_5" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_6_aliases.h" value="HEADER;;;;;Pin_6" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_6.c" value="SOURCE_C;CortexM3;;;;Pin_6" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_6.h" value="HEADER;;;;;Pin_6" />
+  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_Clk_aliases.h" value="HEADER;;;;;Pin_Clk" />
+  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_Clk.c" value="SOURCE_C;CortexM3;;;;Pin_Clk" />
+  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_Clk.h" value="HEADER;;;;;Pin_Clk" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_1.c" value="SOURCE_C;CortexM3;;;;ADC_1" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_1.h" value="HEADER;;;;;ADC_1" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_1_INT.c" value="SOURCE_C;CortexM3;;;;ADC_1" />
@@ -63,19 +57,16 @@
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Opamp_1.c" value="SOURCE_C;CortexM3;;;;Opamp_1" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Opamp_1.h" value="HEADER;;;;;Opamp_1" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Opamp_1_PM.c" value="SOURCE_C;CortexM3;;;;Opamp_1" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_8_aliases.h" value="HEADER;;;;;Pin_8" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_8.c" value="SOURCE_C;CortexM3;;;;Pin_8" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_8.h" value="HEADER;;;;;Pin_8" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Opamp_2.c" value="SOURCE_C;CortexM3;;;;Opamp_2" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Opamp_2.h" value="HEADER;;;;;Opamp_2" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Opamp_2_PM.c" value="SOURCE_C;CortexM3;;;;Opamp_2" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_7_aliases.h" value="HEADER;;;;;Pin_7" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_7.c" value="SOURCE_C;CortexM3;;;;Pin_7" />
-  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_7.h" value="HEADER;;;;;Pin_7" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_2.c" value="SOURCE_C;CortexM3;;;;ADC_2" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_2.h" value="HEADER;;;;;ADC_2" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_2_INT.c" value="SOURCE_C;CortexM3;;;;ADC_2" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_2_PM.c" value="SOURCE_C;CortexM3;;;;ADC_2" />
+  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_Serial_aliases.h" value="HEADER;;;;;Pin_Serial" />
+  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_Serial.c" value="SOURCE_C;CortexM3;;;;Pin_Serial" />
+  <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\Pin_Serial.h" value="HEADER;;;;;Pin_Serial" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_1_IRQ.c" value="SOURCE_C;CortexM3;;;;ADC_1_IRQ" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_1_IRQ.h" value="HEADER;;;;;ADC_1_IRQ" />
   <file name="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\codegentemp\ADC_1_theACLK.c" value="SOURCE_C;CortexM3;;;;ADC_1_theACLK" />

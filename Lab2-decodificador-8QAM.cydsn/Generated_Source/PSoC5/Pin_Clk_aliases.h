@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Pin_4.h  
+* File Name: Pin_Clk.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_Pin_4_ALIASES_H) /* Pins Pin_4_ALIASES_H */
-#define CY_PINS_Pin_4_ALIASES_H
+#if !defined(CY_PINS_Pin_Clk_ALIASES_H) /* Pins Pin_Clk_ALIASES_H */
+#define CY_PINS_Pin_Clk_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,12 +25,12 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define Pin_4_0			(Pin_4__0__PC)
-#define Pin_4_0_INTR	((uint16)((uint16)0x0001u << Pin_4__0__SHIFT))
+#define Pin_Clk_0			(Pin_Clk__0__PC)
+#define Pin_Clk_0_INTR	((uint16)((uint16)0x0001u << Pin_Clk__0__SHIFT))
 
-#define Pin_4_INTR_ALL	 ((uint16)(Pin_4_0_INTR))
+#define Pin_Clk_INTR_ALL	 ((uint16)(Pin_Clk_0_INTR))
 
-#endif /* End Pins Pin_4_ALIASES_H */
+#endif /* End Pins Pin_Clk_ALIASES_H */
 
 
 /* [] END OF FILE */

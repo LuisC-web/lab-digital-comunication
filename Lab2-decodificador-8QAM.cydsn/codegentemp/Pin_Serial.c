@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Pin_8.c  
+* File Name: Pin_Serial.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "Pin_8.h"
+#include "Pin_Serial.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 Pin_8__PORT == 15 && ((Pin_8__MASK & 0xC0) != 0))
+	 Pin_Serial__PORT == 15 && ((Pin_Serial__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: Pin_8_Write
+* Function Name: Pin_Serial_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet Pin_8_SUT.c usage_Pin_8_Write
+*  \snippet Pin_Serial_SUT.c usage_Pin_Serial_Write
 *******************************************************************************/
-void Pin_8_Write(uint8 value)
+void Pin_Serial_Write(uint8 value)
 {
-    uint8 staticBits = (Pin_8_DR & (uint8)(~Pin_8_MASK));
-    Pin_8_DR = staticBits | ((uint8)(value << Pin_8_SHIFT) & Pin_8_MASK);
+    uint8 staticBits = (Pin_Serial_DR & (uint8)(~Pin_Serial_MASK));
+    Pin_Serial_DR = staticBits | ((uint8)(value << Pin_Serial_SHIFT) & Pin_Serial_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_8_SetDriveMode
+* Function Name: Pin_Serial_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void Pin_8_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet Pin_8_SUT.c usage_Pin_8_SetDriveMode
+*  \snippet Pin_Serial_SUT.c usage_Pin_Serial_SetDriveMode
 *******************************************************************************/
-void Pin_8_SetDriveMode(uint8 mode)
+void Pin_Serial_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(Pin_8_0, mode);
+	CyPins_SetPinDriveMode(Pin_Serial_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_8_Read
+* Function Name: Pin_Serial_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void Pin_8_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet Pin_8_SUT.c usage_Pin_8_Read  
+*  \snippet Pin_Serial_SUT.c usage_Pin_Serial_Read  
 *******************************************************************************/
-uint8 Pin_8_Read(void)
+uint8 Pin_Serial_Read(void)
 {
-    return (Pin_8_PS & Pin_8_MASK) >> Pin_8_SHIFT;
+    return (Pin_Serial_PS & Pin_Serial_MASK) >> Pin_Serial_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_8_ReadDataReg
+* Function Name: Pin_Serial_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 Pin_8_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred Pin_8_Read() API because the 
-* Pin_8_ReadDataReg() reads the data register instead of the status 
+* preferred Pin_Serial_Read() API because the 
+* Pin_Serial_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 Pin_8_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet Pin_8_SUT.c usage_Pin_8_ReadDataReg 
+*  \snippet Pin_Serial_SUT.c usage_Pin_Serial_ReadDataReg 
 *******************************************************************************/
-uint8 Pin_8_ReadDataReg(void)
+uint8 Pin_Serial_ReadDataReg(void)
 {
-    return (Pin_8_DR & Pin_8_MASK) >> Pin_8_SHIFT;
+    return (Pin_Serial_DR & Pin_Serial_MASK) >> Pin_Serial_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(Pin_8_INTSTAT) 
+#if defined(Pin_Serial_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: Pin_8_SetInterruptMode
+    * Function Name: Pin_Serial_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 Pin_8_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use Pin_8_INTR_ALL to configure the
+    *  component. Or you may use Pin_Serial_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - Pin_8_0_INTR       (First pin in the list)
-    *  - Pin_8_1_INTR       (Second pin in the list)
+    *  - Pin_Serial_0_INTR       (First pin in the list)
+    *  - Pin_Serial_1_INTR       (Second pin in the list)
     *  - ...
-    *  - Pin_8_INTR_ALL     (All pins in Pins component)
+    *  - Pin_Serial_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 Pin_8_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet Pin_8_SUT.c usage_Pin_8_SetInterruptMode
+    *  \snippet Pin_Serial_SUT.c usage_Pin_Serial_SetInterruptMode
     *******************************************************************************/
-    void Pin_8_SetInterruptMode(uint16 position, uint16 mode)
+    void Pin_Serial_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & Pin_8_0_INTR) != 0u) 
+		if((position & Pin_Serial_0_INTR) != 0u) 
 		{ 
-			 Pin_8_0_INTTYPE_REG = (uint8)mode; 
+			 Pin_Serial_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: Pin_8_ClearInterrupt
+    * Function Name: Pin_Serial_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 Pin_8_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet Pin_8_SUT.c usage_Pin_8_ClearInterrupt
+    *  \snippet Pin_Serial_SUT.c usage_Pin_Serial_ClearInterrupt
     *******************************************************************************/
-    uint8 Pin_8_ClearInterrupt(void)
+    uint8 Pin_Serial_ClearInterrupt(void)
     {
-        return (Pin_8_INTSTAT & Pin_8_MASK) >> Pin_8_SHIFT;
+        return (Pin_Serial_INTSTAT & Pin_Serial_MASK) >> Pin_Serial_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 

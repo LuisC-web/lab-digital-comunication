@@ -18,7 +18,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Lab1.2-000\Lab2-decodificador-8QAM\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>Lab1.2-000</v>
 <v>Lab1.2-000\Lab1-codificador-8QAM\TopDesign</v>
@@ -204,11 +204,8 @@
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_3.lst</v>
-<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_4.lst</v>
-<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_5.lst</v>
-<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_6.lst</v>
-<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_7.lst</v>
-<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_8.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Clk.lst</v>
+<v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Serial.lst</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\Q.lst</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\S1.lst</v>
 <v>Lab1.2-000\Lab2-decodificador-8QAM\CortexM3\ARM_GCC_541\Debug\Listing Files\S2.lst</v>

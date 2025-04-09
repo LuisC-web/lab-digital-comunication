@@ -16,6 +16,8 @@ Archive member included to satisfy reference by file (symbol)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (ADC_1_Start)
 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
                               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o) (ADC_1_ISR)
+.\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (Opamp_2_Start)
 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (ADC_2_Start)
 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
@@ -24,16 +26,26 @@ Archive member included to satisfy reference by file (symbol)
                               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o) (ADC_1_theACLK_SetModeRegister)
 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
                               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o) (ADC_2_theACLK_SetModeRegister)
+.\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (Opamp_1_Start)
+.\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (Pin_Serial_Write)
 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
                               .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o (CyDelayCycles)
 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
                               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o) (CyFlash_SetWaitCycles)
 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
                               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o) (CySpcStart)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (__aeabi_f2d)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_cmpdf2.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (__aeabi_dcmple)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
-                              .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o) (__aeabi_i2f)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (__aeabi_ui2f)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
                               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o) (__aeabi_fmul)
+c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (__aeabi_f2uiz)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_aeabi_ldivmod.o)
                               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o) (__aeabi_ldivmod)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_udivmoddi4.o)
@@ -57,6 +69,7 @@ Allocating common symbols
 Common symbol       size              file
 
 ADC_1_offset        0x2               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ADCQ                0x2               .\CortexM3\ARM_GCC_541\Debug\main.o
 ADC_2_shift         0x2               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
 ADC_2_countsPerVolt
                     0x2               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
@@ -69,6 +82,7 @@ ADC_2_offset        0x2               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodifi
 dieTemperature      0x2               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
 ADC_1_countsPer10Volt
                     0x4               .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ADCI                0x2               .\CortexM3\ARM_GCC_541\Debug\main.o
 
 Discarded input sections
 
@@ -175,7 +189,6 @@ Discarded input sections
                 0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
  .text.CySoftwareReset
                 0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
- .text.CyDelay  0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
  .text.CyXTAL_32KHZ_SetPowerMode
                 0x00000000       0x84 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
  .text.CyXTAL_32KHZ_Start
@@ -324,8 +337,6 @@ Discarded input sections
                 0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
  .text.ADC_1_GetResult8
                 0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
- .text.ADC_1_GetResult16
-                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
  .text.ADC_1_SetOffset
                 0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
  .text.ADC_1_SetGain
@@ -336,11 +347,13 @@ Discarded input sections
                 0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
  .text.ADC_1_CountsTo_uVolts
                 0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
- .text.ADC_1_CountsTo_Volts
-                0x00000000       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
  .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+ .text.Opamp_2_Stop
+                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .text.ADC_2_Stop
@@ -350,8 +363,6 @@ Discarded input sections
  .text.ADC_2_StopConvert
                 0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .text.ADC_2_GetResult8
-                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
- .text.ADC_2_GetResult16
                 0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .text.ADC_2_SetOffset
                 0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
@@ -363,8 +374,6 @@ Discarded input sections
                 0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .text.ADC_2_CountsTo_uVolts
                 0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
- .text.ADC_2_CountsTo_Volts
-                0x00000000       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
  .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
@@ -422,6 +431,19 @@ Discarded input sections
                 0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
  .text.ADC_2_theACLK_GetPhaseRegister
                 0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .text.Opamp_1_Stop
+                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .text.Pin_Serial_SetDriveMode
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .text.Pin_Serial_Read
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .text.Pin_Serial_ReadDataReg
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
  .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
@@ -485,12 +507,16 @@ Discarded input sections
                 0x00000000       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
  .text.CySpcGetAlgorithm
                 0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
- .text          0x00000000      0x21c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_cmpdf2.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
- .text          0x00000000      0x2a0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunssfsi.o)
  .text          0x00000000       0xa0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_aeabi_ldivmod.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_aeabi_ldivmod.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_aeabi_ldivmod.o)
@@ -592,7 +618,7 @@ END GROUP
                 0x00000800                ee_size = (CY_APPL_LOADABLE && ! (CY_EE_IN_BTLDR))?(CY_EE_SIZE / CY_APPL_MAX):CY_EE_SIZE
                 [!provide]                PROVIDE (CY_ECC_OFFSET, ecc_offset)
 
-.text           0x00000000      0xbe6
+.text           0x00000000     0x1822
  CREATE_OBJECT_SYMBOLS
                 0x00000000                PROVIDE (__cy_interrupt_vector, RomVectors)
  *(.romvectors)
@@ -609,240 +635,349 @@ END GROUP
                 0x00000001                ASSERT ((((appl_start + .) <= 0x10000) || 0x1), DMA Init must be within the first 64k of flash)
  *(.text .text.* .gnu.linkonce.t.*)
  .text          0x00000028       0x5c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
- .text.main     0x00000084      0x114 .\CortexM3\ARM_GCC_541\Debug\main.o
-                0x00000084                main
+ .text.Init_DACs
+                0x00000084       0x18 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .text.Init_ADCs
+                0x0000009c       0x28 .\CortexM3\ARM_GCC_541\Debug\main.o
+ *fill*         0x000000c4        0x4 
+ .text.cuantizar
+                0x000000c8       0x48 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000000c8                cuantizar
+ .text.determinar_simbolo
+                0x00000110       0x6c .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x00000110                determinar_simbolo
+ .text.enviar_serial
+                0x0000017c       0x34 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x0000017c                enviar_serial
+ .text.main     0x000001b0       0xc0 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000001b0                main
  .text.CyClockStartupError
-                0x00000198        0x4 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00000270        0x4 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .text.cfg_write_bytes32
-                0x0000019c       0x34 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00000274       0x34 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .text.CYMEMZERO
-                0x000001d0        0xc .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x000002a8        0xc .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .text.AnalogSetDefault
-                0x000001dc       0xb8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x000002b4       0xc8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .text.CYCONFIGCPY
-                0x00000294        0x8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x0000037c        0x8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .text.ClockSetup
-                0x0000029c       0xe8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00000384       0xe8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .text.cyfitter_cfg
-                0x00000384      0x114 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
-                0x00000384                cyfitter_cfg
+                0x0000046c      0x100 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x0000046c                cyfitter_cfg
  .text.IntDefaultHandler
-                0x00000498       0x10 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
-                0x00000498                IntDefaultHandler
- .text.Start_c  0x000004a8       0x4c .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
-                0x000004a8                Start_c
+                0x0000056c       0x10 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x0000056c                IntDefaultHandler
+ .text.Start_c  0x0000057c       0x4c .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x0000057c                Start_c
  .text.initialize_psoc
-                0x000004f4       0x68 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
-                0x000004f4                initialize_psoc
- .text.CyHalt   0x0000055c        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
-                0x0000055c                CyHalt
+                0x000005c8       0x68 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x000005c8                initialize_psoc
+ .text.CyHalt   0x00000630        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+                0x00000630                CyHalt
+ .text.CyDelay  0x00000634       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+                0x00000634                CyDelay
  .text.CyDelayUs
-                0x00000560       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
-                0x00000560                CyDelayUs
+                0x00000660       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+                0x00000660                CyDelayUs
  .text.CyIntSetVector
-                0x00000574       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
-                0x00000574                CyIntSetVector
+                0x00000674       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+                0x00000674                CyIntSetVector
  .text.CyIntSetPriority
-                0x0000059c       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
-                0x0000059c                CyIntSetPriority
+                0x0000069c       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+                0x0000069c                CyIntSetPriority
  .text.DAC_1_Enable
-                0x000005cc       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
-                0x000005cc                DAC_1_Enable
+                0x000006cc       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+                0x000006cc                DAC_1_Enable
  .text.DAC_1_SetSpeed
-                0x000005e8       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
-                0x000005e8                DAC_1_SetSpeed
+                0x000006e8       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+                0x000006e8                DAC_1_SetSpeed
  .text.DAC_1_SetValue
-                0x00000604        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
-                0x00000604                DAC_1_SetValue
+                0x00000704        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+                0x00000704                DAC_1_SetValue
  .text.DAC_1_DacTrim
-                0x00000610       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
-                0x00000610                DAC_1_DacTrim
+                0x00000710       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+                0x00000710                DAC_1_DacTrim
  .text.DAC_1_SetRange
-                0x00000634       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
-                0x00000634                DAC_1_SetRange
+                0x00000734       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+                0x00000734                DAC_1_SetRange
  .text.DAC_1_Init
-                0x00000654       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
-                0x00000654                DAC_1_Init
+                0x00000754       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+                0x00000754                DAC_1_Init
  .text.DAC_1_Start
-                0x00000680       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
-                0x00000680                DAC_1_Start
- .text.S1_Read  0x000006a4       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
-                0x000006a4                S1_Read
+                0x00000780       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+                0x00000780                DAC_1_Start
+ .text.S1_Read  0x000007a4       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+                0x000007a4                S1_Read
  .text.DAC_2_Enable
-                0x000006b4       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
-                0x000006b4                DAC_2_Enable
+                0x000007b4       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+                0x000007b4                DAC_2_Enable
  .text.DAC_2_SetSpeed
-                0x000006d0       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
-                0x000006d0                DAC_2_SetSpeed
+                0x000007d0       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+                0x000007d0                DAC_2_SetSpeed
  .text.DAC_2_SetValue
-                0x000006ec        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
-                0x000006ec                DAC_2_SetValue
+                0x000007ec        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+                0x000007ec                DAC_2_SetValue
  .text.DAC_2_DacTrim
-                0x000006f8       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
-                0x000006f8                DAC_2_DacTrim
+                0x000007f8       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+                0x000007f8                DAC_2_DacTrim
  .text.DAC_2_SetRange
-                0x0000071c       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
-                0x0000071c                DAC_2_SetRange
+                0x0000081c       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+                0x0000081c                DAC_2_SetRange
  .text.DAC_2_Init
-                0x0000073c       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
-                0x0000073c                DAC_2_Init
+                0x0000083c       0x2c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+                0x0000083c                DAC_2_Init
  .text.DAC_2_Start
-                0x00000768       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
-                0x00000768                DAC_2_Start
- .text.S2_Read  0x0000078c       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
-                0x0000078c                S2_Read
+                0x00000868       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+                0x00000868                DAC_2_Start
+ .text.S2_Read  0x0000088c       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+                0x0000088c                S2_Read
  .text.ADC_1_CalcGain
-                0x0000079c       0x64 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x0000089c       0x64 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
  .text.ADC_1_Enable
-                0x00000800       0x94 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
-                0x00000800                ADC_1_Enable
+                0x00000900       0x94 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x00000900                ADC_1_Enable
  .text.ADC_1_SetResolution
-                0x00000894       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
-                0x00000894                ADC_1_SetResolution
+                0x00000994       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x00000994                ADC_1_SetResolution
  .text.ADC_1_Init
-                0x000008cc       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
-                0x000008cc                ADC_1_Init
+                0x000009cc       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x000009cc                ADC_1_Init
  .text.ADC_1_Start
-                0x00000908       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
-                0x00000908                ADC_1_Start
+                0x00000a08       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x00000a08                ADC_1_Start
  .text.ADC_1_StartConvert
-                0x00000924       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
-                0x00000924                ADC_1_StartConvert
+                0x00000a24       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x00000a24                ADC_1_StartConvert
  .text.ADC_1_IsEndConversion
-                0x00000934       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
-                0x00000934                ADC_1_IsEndConversion
+                0x00000a34       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x00000a34                ADC_1_IsEndConversion
+ .text.ADC_1_GetResult16
+                0x00000a58       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x00000a58                ADC_1_GetResult16
+ .text.ADC_1_CountsTo_Volts
+                0x00000a70       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x00000a70                ADC_1_CountsTo_Volts
  .text.ADC_1_ISR
-                0x00000958        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
-                0x00000958                ADC_1_ISR
+                0x00000ac0        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+                0x00000ac0                ADC_1_ISR
+ .text.Opamp_2_Enable
+                0x00000ac4       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+                0x00000ac4                Opamp_2_Enable
+ .text.Opamp_2_SetPower
+                0x00000aec       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+                0x00000aec                Opamp_2_SetPower
+ .text.Opamp_2_Init
+                0x00000b08        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+                0x00000b08                Opamp_2_Init
+ .text.Opamp_2_Start
+                0x00000b14       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+                0x00000b14                Opamp_2_Start
  .text.ADC_2_CalcGain
-                0x0000095c       0x64 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000b30       0x64 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .text.ADC_2_Enable
-                0x000009c0       0x94 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
-                0x000009c0                ADC_2_Enable
+                0x00000b94       0x94 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000b94                ADC_2_Enable
  .text.ADC_2_SetResolution
-                0x00000a54       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
-                0x00000a54                ADC_2_SetResolution
+                0x00000c28       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000c28                ADC_2_SetResolution
  .text.ADC_2_Init
-                0x00000a8c       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
-                0x00000a8c                ADC_2_Init
+                0x00000c60       0x3c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000c60                ADC_2_Init
  .text.ADC_2_Start
-                0x00000ac8       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
-                0x00000ac8                ADC_2_Start
+                0x00000c9c       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000c9c                ADC_2_Start
  .text.ADC_2_StartConvert
-                0x00000ae4       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
-                0x00000ae4                ADC_2_StartConvert
+                0x00000cb8       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000cb8                ADC_2_StartConvert
  .text.ADC_2_IsEndConversion
-                0x00000af4       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
-                0x00000af4                ADC_2_IsEndConversion
+                0x00000cc8       0x24 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000cc8                ADC_2_IsEndConversion
+ .text.ADC_2_GetResult16
+                0x00000cec       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000cec                ADC_2_GetResult16
+ .text.ADC_2_CountsTo_Volts
+                0x00000d04       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000d04                ADC_2_CountsTo_Volts
  .text.ADC_2_ISR
-                0x00000b18        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
-                0x00000b18                ADC_2_ISR
+                0x00000d54        0x4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+                0x00000d54                ADC_2_ISR
  .text.ADC_1_theACLK_SetModeRegister
-                0x00000b1c       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
-                0x00000b1c                ADC_1_theACLK_SetModeRegister
+                0x00000d58       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+                0x00000d58                ADC_1_theACLK_SetModeRegister
  .text.ADC_2_theACLK_SetModeRegister
-                0x00000b30       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
-                0x00000b30                ADC_2_theACLK_SetModeRegister
- *fill*         0x00000b44        0x4 
- .text          0x00000b48       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
-                0x00000b48                CyDelayCycles
-                0x00000b58                CyEnterCriticalSection
-                0x00000b60                CyExitCriticalSection
- .text.__errno  0x00000b68        0xc c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
-                0x00000b68                __errno
+                0x00000d6c       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+                0x00000d6c                ADC_2_theACLK_SetModeRegister
+ .text.Opamp_1_Enable
+                0x00000d80       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+                0x00000d80                Opamp_1_Enable
+ .text.Opamp_1_SetPower
+                0x00000da8       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+                0x00000da8                Opamp_1_SetPower
+ .text.Opamp_1_Init
+                0x00000dc4        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+                0x00000dc4                Opamp_1_Init
+ .text.Opamp_1_Start
+                0x00000dd0       0x1c .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+                0x00000dd0                Opamp_1_Start
+ .text.Pin_Serial_Write
+                0x00000dec       0x18 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+                0x00000dec                Pin_Serial_Write
+ *fill*         0x00000e04        0x4 
+ .text          0x00000e08       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
+                0x00000e08                CyDelayCycles
+                0x00000e18                CyEnterCriticalSection
+                0x00000e20                CyExitCriticalSection
+ .text          0x00000e28      0x370 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
+                0x00000e28                __aeabi_drsub
+                0x00000e30                __aeabi_dsub
+                0x00000e30                __subdf3
+                0x00000e34                __aeabi_dadd
+                0x00000e34                __adddf3
+                0x000010ac                __floatunsidf
+                0x000010ac                __aeabi_ui2d
+                0x000010cc                __floatsidf
+                0x000010cc                __aeabi_i2d
+                0x000010f0                __aeabi_f2d
+                0x000010f0                __extendsfdf2
+                0x0000112c                __floatundidf
+                0x0000112c                __aeabi_ul2d
+                0x0000113c                __floatdidf
+                0x0000113c                __aeabi_l2d
+ .text          0x00001198      0x110 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_cmpdf2.o)
+                0x00001198                __gtdf2
+                0x00001198                __gedf2
+                0x000011a0                __ltdf2
+                0x000011a0                __ledf2
+                0x000011a8                __nedf2
+                0x000011a8                __eqdf2
+                0x000011a8                __cmpdf2
+                0x00001224                __aeabi_cdrcmple
+                0x00001234                __aeabi_cdcmpeq
+                0x00001234                __aeabi_cdcmple
+                0x00001244                __aeabi_dcmpeq
+                0x00001258                __aeabi_dcmplt
+                0x0000126c                __aeabi_dcmple
+                0x00001280                __aeabi_dcmpge
+                0x00001294                __aeabi_dcmpgt
+ .text          0x000012a8      0x21c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                0x000012a8                __aeabi_frsub
+                0x000012b0                __subsf3
+                0x000012b0                __aeabi_fsub
+                0x000012b4                __aeabi_fadd
+                0x000012b4                __addsf3
+                0x00001414                __aeabi_ui2f
+                0x00001414                __floatunsisf
+                0x0000141c                __aeabi_i2f
+                0x0000141c                __floatsisf
+                0x00001438                __aeabi_ul2f
+                0x00001438                __floatundisf
+                0x00001448                __aeabi_l2f
+                0x00001448                __floatdisf
+ .text          0x000014c4      0x2a0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                0x000014c4                __mulsf3
+                0x000014c4                __aeabi_fmul
+                0x0000162c                __aeabi_fdiv
+                0x0000162c                __divsf3
+ .text          0x00001764       0x40 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+                0x00001764                __fixunssfsi
+                0x00001764                __aeabi_f2uiz
+ .text.__errno  0x000017a4        0xc c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+                0x000017a4                __errno
  .text.__libc_init_array
-                0x00000b74       0x4c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
-                0x00000b74                __libc_init_array
- .text.memcpy   0x00000bc0       0x16 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
-                0x00000bc0                memcpy
- .text.memset   0x00000bd6       0x10 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
-                0x00000bd6                memset
+                0x000017b0       0x4c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+                0x000017b0                __libc_init_array
+ .text.memcpy   0x000017fc       0x16 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x000017fc                memcpy
+ .text.memset   0x00001812       0x10 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+                0x00001812                memset
  *(.plt)
  *(.gnu.warning)
  *(.glue_7t)
- .glue_7t       0x00000be6        0x0 linker stubs
+ .glue_7t       0x00001822        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x00000be6        0x0 linker stubs
+ .glue_7        0x00001822        0x0 linker stubs
  *(.vfp11_veneer)
- .vfp11_veneer  0x00000be6        0x0 linker stubs
+ .vfp11_veneer  0x00001822        0x0 linker stubs
  *(.bootloader)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  *(.gcc_except_table)
 
-.v4_bx          0x00000be8        0x0
- .v4_bx         0x00000be8        0x0 linker stubs
+.v4_bx          0x00001824        0x0
+ .v4_bx         0x00001824        0x0 linker stubs
 
-.iplt           0x00000be8        0x0
- .iplt          0x00000be8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+.iplt           0x00001824        0x0
+ .iplt          0x00001824        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
 
-.eh_frame       0x00000be8        0x4
+.eh_frame       0x00001824        0x4
  *(.eh_frame)
- .eh_frame      0x00000be8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
- .eh_frame      0x00000be8        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .eh_frame      0x00001824        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .eh_frame      0x00001824        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
                 [!provide]                PROVIDE (__exidx_start, .)
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000bec                __exidx_end = .
+                0x00001828                __exidx_end = .
 
-.rodata         0x00000bec       0x64
+.rodata         0x00001828       0x70
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x00000bec       0x2a .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .rodata        0x00001828       0x10 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .rodata        0x00001838       0x2a .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .rodata.str1.1
-                0x00000c16        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
-                0x00000c18                . = ALIGN (0x4)
+                0x00001862        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                0x00001864                . = ALIGN (0x4)
  *(.init)
- .init          0x00000c18        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
-                0x00000c18                _init
- .init          0x00000c1c        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
-                0x00000c24                . = ALIGN (0x4)
-                0x00000c24                __preinit_array_start = .
+ .init          0x00001864        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x00001864                _init
+ .init          0x00001868        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00001870                . = ALIGN (0x4)
+                0x00001870                __preinit_array_start = .
  *(.preinit_array)
-                0x00000c24                __preinit_array_end = .
-                0x00000c24                . = ALIGN (0x4)
-                0x00000c24                __init_array_start = .
+                0x00001870                __preinit_array_end = .
+                0x00001870                . = ALIGN (0x4)
+                0x00001870                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00000c24        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
- .init_array    0x00000c28        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
-                0x00000c2c                __init_array_end = .
-                0x00000c2c                . = ALIGN (0x4)
+ .init_array    0x00001870        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .init_array    0x00001874        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00001878                __init_array_end = .
+                0x00001878                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00000c2c        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
-                0x00000c2c                _fini
- .fini          0x00000c30        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
-                0x00000c38                . = ALIGN (0x4)
-                0x00000c38                __fini_array_start = .
+ .fini          0x00001878        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x00001878                _fini
+ .fini          0x0000187c        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00001884                . = ALIGN (0x4)
+                0x00001884                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00000c38        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .fini_array    0x00001884        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00000c3c                __fini_array_end = .
-                0x00000c3c                . = ALIGN (0x4)
+                0x00001888                __fini_array_end = .
+                0x00001888                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00000c3c                . = ALIGN (0x4)
+                0x00001888                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00000c3c                . = ALIGN (0x4)
-                0x00000c3c                __cy_regions = .
-                0x00000c3c        0x4 LONG 0xc50 __cy_region_init_ram
-                0x00000c40        0x4 LONG 0x1fff80c8 __cy_region_start_data
-                0x00000c44        0x4 LONG 0x78 __cy_region_init_size_ram
-                0x00000c48        0x4 LONG 0x38 __cy_region_zero_size_ram
-                0x00000c4c                __cy_regions_end = .
-                0x00000c50                . = ALIGN (0x8)
- *fill*         0x00000c4c        0x4 
-                0x00000c50                _etext = .
+                0x00001888                . = ALIGN (0x4)
+                0x00001888                __cy_regions = .
+                0x00001888        0x4 LONG 0x1898 __cy_region_init_ram
+                0x0000188c        0x4 LONG 0x1fff80c8 __cy_region_start_data
+                0x00001890        0x4 LONG 0x78 __cy_region_init_size_ram
+                0x00001894        0x4 LONG 0x40 __cy_region_zero_size_ram
+                0x00001898                __cy_regions_end = .
+                0x00001898                . = ALIGN (0x8)
+                0x00001898                _etext = .
 
 .cy_checksum_exclude
-                0x00000c50        0x0
+                0x00001898        0x0
  *(.cy_checksum_exclude)
 
 .ramvectors     0x1fff8000       0xc0
@@ -856,7 +991,7 @@ END GROUP
  .noinit        0x1fff80c0        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
                 0x1fff80c0                CyResetStatus
 
-.data           0x1fff80c8       0x78 load address 0x00000c50
+.data           0x1fff80c8       0x78 load address 0x00001898
                 0x1fff80c8                __cy_region_start_data = .
  *(.jcr)
  .jcr           0x1fff80c8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
@@ -879,10 +1014,10 @@ END GROUP
  *(.ram)
                 0x1fff8140                _edata = .
 
-.igot.plt       0x1fff8140        0x0 load address 0x00000cc8
+.igot.plt       0x1fff8140        0x0 load address 0x00001910
  .igot.plt      0x1fff8140        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
-.bss            0x1fff8140       0x38 load address 0x00000cc8
+.bss            0x1fff8140       0x40 load address 0x00001910
                 0x1fff8140                PROVIDE (__bss_start__, .)
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
@@ -893,35 +1028,43 @@ END GROUP
                 0x1fff815d                DAC_2_initVar
  .bss           0x1fff815e        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
                 0x1fff815e                ADC_1_initVar
- .bss           0x1fff815f        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
-                0x1fff815f                ADC_2_initVar
+ .bss           0x1fff815f        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+                0x1fff815f                Opamp_2_initVar
+ .bss           0x1fff8160        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x1fff8160                ADC_2_initVar
+ .bss           0x1fff8161        0x1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+                0x1fff8161                Opamp_1_initVar
  *(COMMON)
- COMMON         0x1fff8160        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
-                0x1fff8160                ADC_1_offset
-                0x1fff8162                ADC_1_shift
-                0x1fff8164                ADC_1_countsPerVolt
-                0x1fff8168                ADC_1_countsPer10Volt
- COMMON         0x1fff816c        0xa .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
-                0x1fff816c                ADC_2_shift
-                0x1fff816e                ADC_2_countsPerVolt
-                0x1fff8170                ADC_2_countsPer10Volt
-                0x1fff8174                ADC_2_offset
-                0x1fff8178                . = ALIGN (0x8)
- *fill*         0x1fff8176        0x2 
+ COMMON         0x1fff8162        0x4 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x1fff8162                ADCQ
+                0x1fff8164                ADCI
+ *fill*         0x1fff8166        0x2 
+ COMMON         0x1fff8168        0xc .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x1fff8168                ADC_1_offset
+                0x1fff816a                ADC_1_shift
+                0x1fff816c                ADC_1_countsPerVolt
+                0x1fff8170                ADC_1_countsPer10Volt
+ COMMON         0x1fff8174        0xa .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x1fff8174                ADC_2_shift
+                0x1fff8176                ADC_2_countsPerVolt
+                0x1fff8178                ADC_2_countsPer10Volt
+                0x1fff817c                ADC_2_offset
+                0x1fff8180                . = ALIGN (0x8)
+ *fill*         0x1fff817e        0x2 
  *(.ram.b)
-                0x1fff8178                _end = .
-                0x1fff8178                __end = .
-                0x1fff8178                PROVIDE (end, .)
-                0x1fff8178                PROVIDE (__bss_end__, .)
-                0x00000c50                __cy_region_init_ram = LOADADDR (.data)
+                0x1fff8180                _end = .
+                0x1fff8180                __end = .
+                0x1fff8180                PROVIDE (end, .)
+                0x1fff8180                PROVIDE (__bss_end__, .)
+                0x00001898                __cy_region_init_ram = LOADADDR (.data)
                 0x00000078                __cy_region_init_size_ram = (_edata - ADDR (.data))
-                0x00000038                __cy_region_zero_size_ram = (_end - _edata)
+                0x00000040                __cy_region_zero_size_ram = (_end - _edata)
 
-.heap           0x1fff8178       0x80 load address 0x00000cc8
-                0x1fff8178                . = _end
-                0x1fff81f8                . = (. + 0x80)
- *fill*         0x1fff8178       0x80 
-                0x1fff81f8                __cy_heap_limit = .
+.heap           0x1fff8180       0x80 load address 0x00001910
+                0x1fff8180                . = _end
+                0x1fff8200                . = (. + 0x80)
+ *fill*         0x1fff8180       0x80 
+                0x1fff8200                __cy_heap_limit = .
 
 .stack          0x20007800      0x800
                 0x20007800                __cy_stack_limit = .
@@ -937,9 +1080,9 @@ END GROUP
 .cyloadablemeta
  *(.cyloadablemeta)
 
-.cyconfigecc    0x80000000      0x258
+.cyconfigecc    0x80000000      0x23c
  *(.cyconfigecc)
- .cyconfigecc   0x80000000      0x258 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .cyconfigecc   0x80000000      0x23c .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                 0x80000000                cy_meta_configecc
 
 .cycustnvl      0x90000000        0x4
@@ -968,8 +1111,8 @@ END GROUP
  .cymeta        0x90500000        0xc .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                 0x90500000                cy_metadata
 
-.rel.dyn        0x00000cc8        0x0 load address 0x9050000c
- .rel.iplt      0x00000cc8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+.rel.dyn        0x00001910        0x0 load address 0x9050000c
+ .rel.iplt      0x00001910        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
 .stab
  *(.stab)
@@ -989,221 +1132,252 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x8e8
+.debug_aranges  0x00000000      0x9c8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\main.o
  .debug_aranges
-                0x00000020       0x58 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00000048       0x58 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .debug_aranges
-                0x00000078       0x18 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x000000a0       0x18 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
  .debug_aranges
-                0x00000090       0x48 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x000000b8       0x48 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
  .debug_aranges
-                0x000000d8      0x2a0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+                0x00000100      0x2a0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
  .debug_aranges
-                0x00000378       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
+                0x000003a0       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
  .debug_aranges
-                0x00000410       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+                0x00000438       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
  .debug_aranges
-                0x00000468       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+                0x00000490       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
  .debug_aranges
-                0x000004a0       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+                0x000004c8       0x58 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
  .debug_aranges
-                0x000004f8       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+                0x00000520       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
  .debug_aranges
-                0x00000530       0xa8 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+                0x00000558       0xa8 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
  .debug_aranges
-                0x000005d8       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+                0x00000600       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
  .debug_aranges
-                0x000005f8       0xa8 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x00000620       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
  .debug_aranges
-                0x000006a0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+                0x00000660       0xa8 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .debug_aranges
-                0x000006c0       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+                0x00000708       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
  .debug_aranges
-                0x00000740       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+                0x00000728       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
  .debug_aranges
-                0x000007c0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
+                0x000007a8       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
  .debug_aranges
-                0x000007e0       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+                0x00000828       0x40 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
  .debug_aranges
-                0x00000868       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+                0x00000868       0x38 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .debug_aranges
+                0x000008a0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
+ .debug_aranges
+                0x000008c0       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+ .debug_aranges
+                0x00000948       0x80 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x504b
+.debug_info     0x00000000     0x5588
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x3b4 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_info    0x000003b4      0x572 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_info    0x00000926      0x135 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_info    0x00000a5b      0x3bb .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_info    0x00000e16     0x1374 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
- .debug_info    0x0000218a      0xa2a .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
- .debug_info    0x00002bb4      0x1df .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
- .debug_info    0x00002d93      0x11f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
- .debug_info    0x00002eb2      0x1df .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
- .debug_info    0x00003091      0x11f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
- .debug_info    0x000031b0      0x5c0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
- .debug_info    0x00003770       0x92 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
- .debug_info    0x00003802      0x5c0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
- .debug_info    0x00003dc2       0x92 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
- .debug_info    0x00003e54      0x2c4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
- .debug_info    0x00004118      0x2c4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
- .debug_info    0x000043dc       0xd2 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
- .debug_info    0x000044ae      0x64d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
- .debug_info    0x00004afb      0x550 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+ .debug_info    0x00000000      0x555 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_info    0x00000555      0x54d .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x00000aa2      0x135 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x00000bd7      0x3bb .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_info    0x00000f92     0x1374 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+ .debug_info    0x00002306      0xa2a .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
+ .debug_info    0x00002d30      0x1df .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+ .debug_info    0x00002f0f      0x11f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+ .debug_info    0x0000302e      0x1df .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+ .debug_info    0x0000320d      0x11f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+ .debug_info    0x0000332c      0x5c0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ .debug_info    0x000038ec       0x92 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+ .debug_info    0x0000397e      0x151 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+ .debug_info    0x00003acf      0x5c0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+ .debug_info    0x0000408f       0x92 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+ .debug_info    0x00004121      0x2c4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+ .debug_info    0x000043e5      0x2c4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .debug_info    0x000046a9      0x151 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .debug_info    0x000047fa      0x11f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .debug_info    0x00004919       0xd2 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
+ .debug_info    0x000049eb      0x64d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+ .debug_info    0x00005038      0x550 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
 
-.debug_abbrev   0x00000000     0x1574
+.debug_abbrev   0x00000000     0x187d
  *(.debug_abbrev)
- .debug_abbrev  0x00000000       0xae .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_abbrev  0x000000ae      0x1fe .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_abbrev  0x000002ac       0x66 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_abbrev  0x00000312      0x1e8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_abbrev  0x000004fa      0x254 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
- .debug_abbrev  0x0000074e      0x1ab .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
- .debug_abbrev  0x000008f9       0xf7 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
- .debug_abbrev  0x000009f0       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
- .debug_abbrev  0x00000a80       0xf7 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
- .debug_abbrev  0x00000b77       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
- .debug_abbrev  0x00000c07      0x1ac .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
- .debug_abbrev  0x00000db3       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
- .debug_abbrev  0x00000df5      0x1ac .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
- .debug_abbrev  0x00000fa1       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
- .debug_abbrev  0x00000fe3      0x121 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
- .debug_abbrev  0x00001104      0x121 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
- .debug_abbrev  0x00001225       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
- .debug_abbrev  0x00001239      0x1a7 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
- .debug_abbrev  0x000013e0      0x194 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+ .debug_abbrev  0x00000000      0x1c3 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_abbrev  0x000001c3      0x1fe .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_abbrev  0x000003c1       0x66 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_abbrev  0x00000427      0x1e8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_abbrev  0x0000060f      0x254 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+ .debug_abbrev  0x00000863      0x1ab .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
+ .debug_abbrev  0x00000a0e       0xf7 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+ .debug_abbrev  0x00000b05       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+ .debug_abbrev  0x00000b95       0xf7 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+ .debug_abbrev  0x00000c8c       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+ .debug_abbrev  0x00000d1c      0x1ac .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ .debug_abbrev  0x00000ec8       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+ .debug_abbrev  0x00000f0a       0xb2 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+ .debug_abbrev  0x00000fbc      0x1ac .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+ .debug_abbrev  0x00001168       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+ .debug_abbrev  0x000011aa      0x121 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+ .debug_abbrev  0x000012cb      0x121 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .debug_abbrev  0x000013ec       0xb2 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .debug_abbrev  0x0000149e       0x90 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .debug_abbrev  0x0000152e       0x14 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x00001542      0x1a7 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+ .debug_abbrev  0x000016e9      0x194 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
 
-.debug_line     0x00000000     0x227a
+.debug_line     0x00000000     0x2551
  *(.debug_line)
- .debug_line    0x00000000      0x1c1 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_line    0x000001c1      0x1f5 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_line    0x000003b6      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_line    0x000004f7      0x234 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_line    0x0000072b      0x816 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
- .debug_line    0x00000f41      0x367 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
- .debug_line    0x000012a8       0xe1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
- .debug_line    0x00001389       0x91 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
- .debug_line    0x0000141a       0xe1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
- .debug_line    0x000014fb       0x91 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
- .debug_line    0x0000158c      0x216 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
- .debug_line    0x000017a2       0x52 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
- .debug_line    0x000017f4      0x216 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
- .debug_line    0x00001a0a       0x52 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
- .debug_line    0x00001a5c      0x19f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
- .debug_line    0x00001bfb      0x19f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
- .debug_line    0x00001d9a       0x66 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
- .debug_line    0x00001e00      0x21a .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
- .debug_line    0x0000201a      0x260 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+ .debug_line    0x00000000      0x2ae .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_line    0x000002ae      0x1f4 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_line    0x000004a2      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x000005e3      0x234 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_line    0x00000817      0x816 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+ .debug_line    0x0000102d      0x367 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
+ .debug_line    0x00001394       0xe1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+ .debug_line    0x00001475       0x91 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+ .debug_line    0x00001506       0xe1 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+ .debug_line    0x000015e7       0x91 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+ .debug_line    0x00001678      0x216 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ .debug_line    0x0000188e       0x52 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+ .debug_line    0x000018e0       0xaa .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+ .debug_line    0x0000198a      0x216 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+ .debug_line    0x00001ba0       0x52 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+ .debug_line    0x00001bf2      0x19f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+ .debug_line    0x00001d91      0x19f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .debug_line    0x00001f30       0xaa .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .debug_line    0x00001fda       0x97 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .debug_line    0x00002071       0x66 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
+ .debug_line    0x000020d7      0x21a .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+ .debug_line    0x000022f1      0x260 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
 
-.debug_frame    0x00000000     0x1708
+.debug_frame    0x00000000     0x18d4
  *(.debug_frame)
- .debug_frame   0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_frame   0x0000002c       0xfc .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_frame   0x00000128       0xb8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_frame   0x000001e0      0x738 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
- .debug_frame   0x00000918      0x1f8 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
- .debug_frame   0x00000b10       0xb4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
- .debug_frame   0x00000bc4       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
- .debug_frame   0x00000c14       0xb4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
- .debug_frame   0x00000cc8       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
- .debug_frame   0x00000d18      0x1b0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
- .debug_frame   0x00000ec8       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
- .debug_frame   0x00000ee8      0x1b4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
- .debug_frame   0x0000109c       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
- .debug_frame   0x000010bc      0x100 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
- .debug_frame   0x000011bc      0x100 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
- .debug_frame   0x000012bc      0x194 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
- .debug_frame   0x00001450      0x180 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
- .debug_frame   0x000015d0       0x44 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_aeabi_ldivmod.o)
- .debug_frame   0x00001614       0x38 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000164c       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
- .debug_frame   0x0000166c       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
- .debug_frame   0x00001694       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
- .debug_frame   0x000016c0       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x000016e8       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0xb8 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_frame   0x000000b8       0xfc .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_frame   0x000001b4       0xb8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_frame   0x0000026c      0x738 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+ .debug_frame   0x000009a4      0x1f8 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
+ .debug_frame   0x00000b9c       0xb4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+ .debug_frame   0x00000c50       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+ .debug_frame   0x00000ca0       0xb4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+ .debug_frame   0x00000d54       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+ .debug_frame   0x00000da4      0x1b0 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ .debug_frame   0x00000f54       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+ .debug_frame   0x00000f74       0x78 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+ .debug_frame   0x00000fec      0x1b4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+ .debug_frame   0x000011a0       0x20 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+ .debug_frame   0x000011c0      0x100 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+ .debug_frame   0x000012c0      0x100 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .debug_frame   0x000013c0       0x78 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .debug_frame   0x00001438       0x50 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .debug_frame   0x00001488      0x194 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+ .debug_frame   0x0000161c      0x180 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+ .debug_frame   0x0000179c       0x44 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x000017e0       0x38 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00001818       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x00001838       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x00001860       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000188c       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000018b4       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
 
-.debug_str      0x00000000     0x1c6a
+.debug_str      0x00000000     0x1e54
  *(.debug_str)
- .debug_str     0x00000000      0x26e .\CortexM3\ARM_GCC_541\Debug\main.o
-                                0x2b6 (size before relaxing)
- .debug_str     0x0000026e      0x18a .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_str     0x00000000      0x386 .\CortexM3\ARM_GCC_541\Debug\main.o
+                                0x3e5 (size before relaxing)
+ .debug_str     0x00000386      0x183 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
                                 0x35b (size before relaxing)
- .debug_str     0x000003f8       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_str     0x00000509       0x75 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                                 0x226 (size before relaxing)
- .debug_str     0x00000477      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_str     0x0000057e      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
                                 0x34c (size before relaxing)
- .debug_str     0x000005bb      0x84a .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+ .debug_str     0x000006c2      0x842 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
                                 0xa89 (size before relaxing)
- .debug_str     0x00000e05      0x365 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
+ .debug_str     0x00000f04      0x365 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
                                 0x775 (size before relaxing)
- .debug_str     0x0000116a       0x79 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+ .debug_str     0x00001269       0x79 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
                                 0x261 (size before relaxing)
- .debug_str     0x000011e3       0x4f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+ .debug_str     0x000012e2       0x4f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
                                 0x215 (size before relaxing)
- .debug_str     0x00001232       0x6d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+ .debug_str     0x00001331       0x6d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
                                 0x261 (size before relaxing)
- .debug_str     0x0000129f       0x44 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+ .debug_str     0x0000139e       0x44 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
                                 0x215 (size before relaxing)
- .debug_str     0x000012e3      0x1e9 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ .debug_str     0x000013e2      0x1c2 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
                                 0x49b (size before relaxing)
- .debug_str     0x000014cc       0x2d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+ .debug_str     0x000015a4       0x2d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
                                 0x1d5 (size before relaxing)
- .debug_str     0x000014f9      0x18b .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+ .debug_str     0x000015d1       0x6b .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+                                0x247 (size before relaxing)
+ .debug_str     0x0000163c      0x164 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
                                 0x49b (size before relaxing)
- .debug_str     0x00001684       0x2d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+ .debug_str     0x000017a0       0x2d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
                                 0x1d5 (size before relaxing)
- .debug_str     0x000016b1      0x1d3 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+ .debug_str     0x000017cd      0x1d3 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
                                 0x3bf (size before relaxing)
- .debug_str     0x00001884      0x17f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .debug_str     0x000019a0      0x17f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
                                 0x3bf (size before relaxing)
- .debug_str     0x00001a03      0x1bb .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+ .debug_str     0x00001b1f       0x6b .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+                                0x247 (size before relaxing)
+ .debug_str     0x00001b8a       0x63 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+                                0x23d (size before relaxing)
+ .debug_str     0x00001bed      0x1bb .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
                                 0x402 (size before relaxing)
- .debug_str     0x00001bbe       0xac .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+ .debug_str     0x00001da8       0xac .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
                                 0x37a (size before relaxing)
 
-.debug_loc      0x00000000     0x2323
+.debug_loc      0x00000000     0x25b7
  *(.debug_loc)
- .debug_loc     0x00000000      0x1fd .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_loc     0x000001fd      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_loc     0x00000341      0xa11 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
- .debug_loc     0x00000d52      0x1e4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
- .debug_loc     0x00000f36       0x79 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
- .debug_loc     0x00000faf       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
- .debug_loc     0x00000ff1       0x79 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
- .debug_loc     0x0000106a       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
- .debug_loc     0x000010ac      0x295 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
- .debug_loc     0x00001341      0x295 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
- .debug_loc     0x000015d6      0x149 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
- .debug_loc     0x0000171f      0x14d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
- .debug_loc     0x0000186c      0x3b2 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
- .debug_loc     0x00001c1e      0x705 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+ .debug_loc     0x00000000      0x210 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_loc     0x00000210      0x1fd .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_loc     0x0000040d      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_loc     0x00000551      0xa11 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+ .debug_loc     0x00000f62      0x1e4 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
+ .debug_loc     0x00001146       0x79 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+ .debug_loc     0x000011bf       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+ .debug_loc     0x00001201       0x79 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+ .debug_loc     0x0000127a       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+ .debug_loc     0x000012bc      0x295 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ .debug_loc     0x00001551       0x21 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+ .debug_loc     0x00001572      0x295 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+ .debug_loc     0x00001807      0x149 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+ .debug_loc     0x00001950      0x14d .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .debug_loc     0x00001a9d       0x21 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .debug_loc     0x00001abe       0x42 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .debug_loc     0x00001b00      0x3b2 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+ .debug_loc     0x00001eb2      0x705 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
 
 .debug_macinfo
  *(.debug_macinfo)
 
-.debug_ranges   0x00000000      0x7a0
+.debug_ranges   0x00000000      0x850
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_ranges  0x00000010       0x48 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_ranges  0x00000058       0x38 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_ranges  0x00000090      0x290 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
- .debug_ranges  0x00000320       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
- .debug_ranges  0x000003a8       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
- .debug_ranges  0x000003f0       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
- .debug_ranges  0x00000418       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
- .debug_ranges  0x00000460       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
- .debug_ranges  0x00000488       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
- .debug_ranges  0x00000520       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
- .debug_ranges  0x00000530       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
- .debug_ranges  0x000005c8       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
- .debug_ranges  0x000005d8       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
- .debug_ranges  0x00000648       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
- .debug_ranges  0x000006b8       0x78 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
- .debug_ranges  0x00000730       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+ .debug_ranges  0x00000000       0x38 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_ranges  0x00000038       0x48 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_ranges  0x00000080       0x38 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_ranges  0x000000b8      0x290 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyLib.o)
+ .debug_ranges  0x00000348       0x88 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(cyPm.o)
+ .debug_ranges  0x000003d0       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_1.o)
+ .debug_ranges  0x00000418       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S1.o)
+ .debug_ranges  0x00000440       0x48 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(DAC_2.o)
+ .debug_ranges  0x00000488       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
+ .debug_ranges  0x000004b0       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
+ .debug_ranges  0x00000548       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+ .debug_ranges  0x00000558       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
+ .debug_ranges  0x00000588       0x98 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+ .debug_ranges  0x00000620       0x10 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+ .debug_ranges  0x00000630       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+ .debug_ranges  0x000006a0       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .debug_ranges  0x00000710       0x30 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .debug_ranges  0x00000740       0x28 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
+ .debug_ranges  0x00000768       0x78 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+ .debug_ranges  0x000007e0       0x70 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
 
 .comment        0x00000000       0x6e
  .comment       0x00000000       0x6e .\CortexM3\ARM_GCC_541\Debug\main.o
@@ -1219,10 +1393,13 @@ END GROUP
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(S2.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
 
@@ -1275,45 +1452,57 @@ END GROUP
  .ARM.attributes
                 0x00000296       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_INT.o)
  .ARM.attributes
-                0x000002c9       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
+                0x000002c9       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_2.o)
  .ARM.attributes
-                0x000002fc       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
+                0x000002fc       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2.o)
  .ARM.attributes
-                0x0000032f       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
+                0x0000032f       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_INT.o)
  .ARM.attributes
-                0x00000362       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
+                0x00000362       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_1_theACLK.o)
  .ARM.attributes
-                0x00000395       0x21 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
+                0x00000395       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(ADC_2_theACLK.o)
  .ARM.attributes
-                0x000003b6       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
+                0x000003c8       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Opamp_1.o)
  .ARM.attributes
-                0x000003e9       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
+                0x000003fb       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(Pin_Serial.o)
  .ARM.attributes
-                0x0000041c       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                0x0000042e       0x21 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyBootAsmGnu.o)
  .ARM.attributes
-                0x00000439       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                0x0000044f       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CyFlash.o)
  .ARM.attributes
-                0x00000456       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_aeabi_ldivmod.o)
+                0x00000482       0x33 .\CortexM3\ARM_GCC_541\Debug\Lab2-decodificador-8QAM.a(CySpc.o)
  .ARM.attributes
-                0x00000473       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_udivmoddi4.o)
+                0x000004b5       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x000004a0       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_dvmd_tls.o)
+                0x000004d2       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x000004bd       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+                0x000004ef       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x000004ea       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+                0x0000050c       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x00000517       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                0x00000529       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunssfsi.o)
  .ARM.attributes
-                0x00000544       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+                0x00000546       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_aeabi_ldivmod.o)
  .ARM.attributes
-                0x00000571       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x00000563       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000059e       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+                0x00000590       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000005cb       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+                0x000005ad       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x000005f8       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x000005da       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000607       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000634       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000661       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000068e       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000006bb       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .ARM.attributes
+                0x000006e8       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
 
 /DISCARD/
  *(.note.GNU-stack)

@@ -102,12 +102,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_3_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_3.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_3.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_5_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_5.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_5.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_4_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_4.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_4.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\DAC_1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\DAC_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\DAC_1_PM.c</File>
@@ -126,9 +120,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Q_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Q.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Q.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_6_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_6.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_6.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_1_INT.c</File>
@@ -136,12 +127,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_2.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_8_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_8.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_8.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_7_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_7.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_7.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_2.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_2_INT.c</File>
@@ -163,6 +148,12 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Serial_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Serial.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Serial.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Clk_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Clk.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Clk.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="D:\Users\luisc-web\Documents\universidad\7-semestre\comunicaciones-digitales\lab-digital-comunication\Lab2-decodificador-8QAM.cydsn\Export\ARM_GCC_Generic">

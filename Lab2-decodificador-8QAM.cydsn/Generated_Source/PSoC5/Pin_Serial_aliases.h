@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Pin_6.h  
+* File Name: Pin_Serial.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_Pin_6_ALIASES_H) /* Pins Pin_6_ALIASES_H */
-#define CY_PINS_Pin_6_ALIASES_H
+#if !defined(CY_PINS_Pin_Serial_ALIASES_H) /* Pins Pin_Serial_ALIASES_H */
+#define CY_PINS_Pin_Serial_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,12 +25,12 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define Pin_6_0			(Pin_6__0__PC)
-#define Pin_6_0_INTR	((uint16)((uint16)0x0001u << Pin_6__0__SHIFT))
+#define Pin_Serial_0			(Pin_Serial__0__PC)
+#define Pin_Serial_0_INTR	((uint16)((uint16)0x0001u << Pin_Serial__0__SHIFT))
 
-#define Pin_6_INTR_ALL	 ((uint16)(Pin_6_0_INTR))
+#define Pin_Serial_INTR_ALL	 ((uint16)(Pin_Serial_0_INTR))
 
-#endif /* End Pins Pin_6_ALIASES_H */
+#endif /* End Pins Pin_Serial_ALIASES_H */
 
 
 /* [] END OF FILE */

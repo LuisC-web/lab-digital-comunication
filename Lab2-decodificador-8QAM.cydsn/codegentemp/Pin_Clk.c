@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Pin_6.c  
+* File Name: Pin_Clk.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "Pin_6.h"
+#include "Pin_Clk.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 Pin_6__PORT == 15 && ((Pin_6__MASK & 0xC0) != 0))
+	 Pin_Clk__PORT == 15 && ((Pin_Clk__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: Pin_6_Write
+* Function Name: Pin_Clk_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet Pin_6_SUT.c usage_Pin_6_Write
+*  \snippet Pin_Clk_SUT.c usage_Pin_Clk_Write
 *******************************************************************************/
-void Pin_6_Write(uint8 value)
+void Pin_Clk_Write(uint8 value)
 {
-    uint8 staticBits = (Pin_6_DR & (uint8)(~Pin_6_MASK));
-    Pin_6_DR = staticBits | ((uint8)(value << Pin_6_SHIFT) & Pin_6_MASK);
+    uint8 staticBits = (Pin_Clk_DR & (uint8)(~Pin_Clk_MASK));
+    Pin_Clk_DR = staticBits | ((uint8)(value << Pin_Clk_SHIFT) & Pin_Clk_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_6_SetDriveMode
+* Function Name: Pin_Clk_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void Pin_6_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet Pin_6_SUT.c usage_Pin_6_SetDriveMode
+*  \snippet Pin_Clk_SUT.c usage_Pin_Clk_SetDriveMode
 *******************************************************************************/
-void Pin_6_SetDriveMode(uint8 mode)
+void Pin_Clk_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(Pin_6_0, mode);
+	CyPins_SetPinDriveMode(Pin_Clk_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_6_Read
+* Function Name: Pin_Clk_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void Pin_6_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet Pin_6_SUT.c usage_Pin_6_Read  
+*  \snippet Pin_Clk_SUT.c usage_Pin_Clk_Read  
 *******************************************************************************/
-uint8 Pin_6_Read(void)
+uint8 Pin_Clk_Read(void)
 {
-    return (Pin_6_PS & Pin_6_MASK) >> Pin_6_SHIFT;
+    return (Pin_Clk_PS & Pin_Clk_MASK) >> Pin_Clk_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_6_ReadDataReg
+* Function Name: Pin_Clk_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 Pin_6_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred Pin_6_Read() API because the 
-* Pin_6_ReadDataReg() reads the data register instead of the status 
+* preferred Pin_Clk_Read() API because the 
+* Pin_Clk_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 Pin_6_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet Pin_6_SUT.c usage_Pin_6_ReadDataReg 
+*  \snippet Pin_Clk_SUT.c usage_Pin_Clk_ReadDataReg 
 *******************************************************************************/
-uint8 Pin_6_ReadDataReg(void)
+uint8 Pin_Clk_ReadDataReg(void)
 {
-    return (Pin_6_DR & Pin_6_MASK) >> Pin_6_SHIFT;
+    return (Pin_Clk_DR & Pin_Clk_MASK) >> Pin_Clk_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(Pin_6_INTSTAT) 
+#if defined(Pin_Clk_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: Pin_6_SetInterruptMode
+    * Function Name: Pin_Clk_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 Pin_6_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use Pin_6_INTR_ALL to configure the
+    *  component. Or you may use Pin_Clk_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - Pin_6_0_INTR       (First pin in the list)
-    *  - Pin_6_1_INTR       (Second pin in the list)
+    *  - Pin_Clk_0_INTR       (First pin in the list)
+    *  - Pin_Clk_1_INTR       (Second pin in the list)
     *  - ...
-    *  - Pin_6_INTR_ALL     (All pins in Pins component)
+    *  - Pin_Clk_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 Pin_6_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet Pin_6_SUT.c usage_Pin_6_SetInterruptMode
+    *  \snippet Pin_Clk_SUT.c usage_Pin_Clk_SetInterruptMode
     *******************************************************************************/
-    void Pin_6_SetInterruptMode(uint16 position, uint16 mode)
+    void Pin_Clk_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & Pin_6_0_INTR) != 0u) 
+		if((position & Pin_Clk_0_INTR) != 0u) 
 		{ 
-			 Pin_6_0_INTTYPE_REG = (uint8)mode; 
+			 Pin_Clk_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: Pin_6_ClearInterrupt
+    * Function Name: Pin_Clk_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 Pin_6_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet Pin_6_SUT.c usage_Pin_6_ClearInterrupt
+    *  \snippet Pin_Clk_SUT.c usage_Pin_Clk_ClearInterrupt
     *******************************************************************************/
-    uint8 Pin_6_ClearInterrupt(void)
+    uint8 Pin_Clk_ClearInterrupt(void)
     {
-        return (Pin_6_INTSTAT & Pin_6_MASK) >> Pin_6_SHIFT;
+        return (Pin_Clk_INTSTAT & Pin_Clk_MASK) >> Pin_Clk_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 
