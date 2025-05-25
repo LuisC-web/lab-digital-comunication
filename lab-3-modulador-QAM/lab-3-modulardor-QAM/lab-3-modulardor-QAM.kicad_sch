@@ -9,7 +9,7 @@
 		(company "Universidad Distrital Francisco José de Caldas")
 		(comment 1 "Luis Angel Camargo Guzman - 20221005086")
 		(comment 2 "Joan Sebastian Ramos Cuervo - 20221005091")
-		(comment 3 "Cristian Francisco Enciso")
+		(comment 3 "Cristian Camilo Franco Enciso - 20201005172")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM741"
@@ -2745,7 +2745,7 @@
 		(uuid "34eef0df-d11e-48f6-94c4-1936d52f4988")
 	)
 	(junction
-		(at 204.47 54.61)
+		(at 201.93 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "499c927c-d9f4-40b4-8175-26ca4b2d26bc")
@@ -2907,7 +2907,7 @@
 		(uuid "dd4f7d35-3529-4560-9372-37750e04b48a")
 	)
 	(junction
-		(at 189.23 50.8)
+		(at 186.69 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd90fa3e-cfa5-4306-8f55-330edf24bc8e")
@@ -3053,6 +3053,16 @@
 			(type default)
 		)
 		(uuid "09fd0c90-0459-428c-9c52-8aa0f456964b")
+	)
+	(wire
+		(pts
+			(xy 180.34 50.8) (xy 182.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa009b2-b50a-430b-84d0-87f81b596ed1")
 	)
 	(wire
 		(pts
@@ -3356,6 +3366,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 50.8) (xy 182.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429f7bd6-71d9-475c-9a9f-ff5d3eb1145a")
+	)
+	(wire
+		(pts
 			(xy 100.33 55.88) (xy 104.14 55.88)
 		)
 		(stroke
@@ -3376,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 50.8) (xy 189.23 50.8)
+			(xy 182.88 38.1) (xy 186.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 50.8) (xy 189.23 54.61)
+			(xy 186.69 38.1) (xy 186.69 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3656,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 54.61) (xy 208.28 54.61)
+			(xy 201.93 41.91) (xy 205.74 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3746,7 +3766,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 62.23) (xy 209.55 62.23)
+			(xy 201.93 49.53) (xy 207.01 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3876,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 54.61) (xy 204.47 58.42)
+			(xy 201.93 41.91) (xy 201.93 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4146,7 +4166,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 58.42) (xy 189.23 58.42)
+			(xy 181.61 45.72) (xy 186.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4386,6 +4406,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 38.1) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfb78b3-5555-4968-97c9-8de863d339a9")
+	)
+	(wire
+		(pts
 			(xy 49.53 185.42) (xy 52.07 185.42)
 		)
 		(stroke
@@ -4523,6 +4553,26 @@
 			(type default)
 		)
 		(uuid "edd62ca0-b8e7-4002-bdc4-b2e04051738c")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 204.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09b3ba6-8d41-4d09-bfc3-7b9531233ba4")
+	)
+	(wire
+		(pts
+			(xy 182.88 49.53) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bac228-645f-43ba-96c3-6f13ab4ad23c")
 	)
 	(wire
 		(pts
@@ -4726,7 +4776,7 @@
 	)
 	(global_label "sen(wt)"
 		(shape input)
-		(at 184.15 58.42 180)
+		(at 181.61 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4736,7 +4786,7 @@
 		)
 		(uuid "95c1e67f-79d5-412e-902d-ebf118f335c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.1495 58.42 0)
+			(at 171.6095 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +4842,7 @@
 	)
 	(global_label "Bcos(wt)"
 		(shape input)
-		(at 208.28 54.61 0)
+		(at 205.74 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4802,7 +4852,7 @@
 		)
 		(uuid "a902ed6e-844c-4769-b6ed-aa9e9e50eaad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.5505 54.61 0)
+			(at 217.0105 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +4996,7 @@
 	)
 	(global_label "Bsen(wt)"
 		(shape input)
-		(at 185.42 50.8 180)
+		(at 182.88 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4956,7 +5006,7 @@
 		)
 		(uuid "d8576228-653a-4d15-947d-8e2004bedf01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.1495 50.8 0)
+			(at 171.6095 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5128,7 @@
 	)
 	(global_label "cos(wt)"
 		(shape input)
-		(at 209.55 62.23 0)
+		(at 207.01 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5088,7 +5138,7 @@
 		)
 		(uuid "fa5404c5-9059-4759-8df1-3fc152edf22e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.5505 62.23 0)
+			(at 217.0105 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6478,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 189.23 62.23 90)
+		(at 180.34 50.8 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6437,7 +6487,7 @@
 		(dnp no)
 		(uuid "48c1f25c-28a4-47a0-9172-db081185f6df")
 		(property "Reference" "#PWR8"
-			(at 193.04 62.23 0)
+			(at 184.15 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6496,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 184.15 62.23 0)
+			(at 175.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 62.23 0)
+			(at 180.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 62.23 0)
+			(at 180.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,7 +6522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 189.23 62.23 0)
+			(at 180.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,6 +7213,72 @@
 			(project ""
 				(path "/be553ecb-da65-43ec-9fc5-3aeb6eae0634"
 					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 204.47 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "713e83d8-03cb-4cfc-a2e8-661515adb97b")
+		(property "Reference" "#PWR06"
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1c36d80-3742-42cb-9f00-f583de084a01")
+		)
+		(instances
+			(project ""
+				(path "/be553ecb-da65-43ec-9fc5-3aeb6eae0634"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9031,7 +9147,7 @@
 	)
 	(symbol
 		(lib_id "otros_componentes:LM358")
-		(at 196.85 44.45 0)
+		(at 194.31 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9040,7 +9156,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6855e6c-7937-41ca-9fb1-708b5916c012")
 		(property "Reference" "U7"
-			(at 196.85 44.45 0)
+			(at 194.31 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +9164,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 196.85 46.99 0)
+			(at 194.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +9172,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
-			(at 196.088 39.37 0)
+			(at 193.548 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +9181,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/514875/ONSEMI/LM358.html"
-			(at 196.342 41.91 0)
+			(at 193.802 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 44.45 0)
+			(at 194.31 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 124.46 184.15 0)
 			(effects
 				(font
@@ -10097,7 +10213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edb43dad-21b8-4737-bb13-4850c3e1a03f")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 71.12 49.5299 0)
 			(effects
 				(font
@@ -10157,7 +10273,7 @@
 		(instances
 			(project ""
 				(path "/be553ecb-da65-43ec-9fc5-3aeb6eae0634"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
