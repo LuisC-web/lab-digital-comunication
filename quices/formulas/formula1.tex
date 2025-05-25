@@ -1,0 +1,219 @@
+\documentclass[10pt]{article}
+
+% Idioma y codificación
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Paquete para matemáticas avanzadas
+\usepackage{amsmath}
+
+\title{Fórmulas comunicaciones digitales}
+
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+\section{Fórmulas para todos los casos}
+\begin{enumerate}
+ 	\item Tasa de transferencia de simbolo
+ 	\begin{equation}
+ 		R_s=\frac{1}{T_s}[\#simbolos/tiempo]
+ 	\end{equation}
+	\item Cantidad de simbolos
+	\begin{equation}
+		M=2^{\eta_b} [simbolos]
+	\end{equation}
+	\item  Tasa de transmisión por usuario
+	\begin{equation}
+		R_U=\frac{R_T}{\eta_c} [bits/simb]
+	\end{equation}
+	Donde $\eta_c$ es numeros de los canales y $R_T$  es tranmisión total
+	\item Frecuencia de muestreo
+	\begin{equation}
+	f_{mt}>2f_{max}
+	\end{equation}
+	Unidad [$\frac{1}{s}=Hz$]
+	\item  Probabilidad del simbolo
+	\begin{equation}
+		P(si)=\frac{\# de simbolo}{\# de simbolos totales}
+	\end{equation}
+	
+	\item  Medida de información
+		\begin{equation}
+		I(s_i)=\log_{n}{\frac{1}{P(si)}} [medida]
+	\end{equation}
+		Donde $n$ es la base que de acuerdo a la medida de información es:
+	
+	\begin{enumerate}
+		\item   n=2; Se refiere a la unidad bit
+		\item   n=10; Se refiere a la unidad Hartley
+		\item   n=e; Se refiere a la Nat
+	\end{enumerate} 
+	Cada uno de los anterior se refier al la medida por ejemplo 2 bits, 2 Nats, 3 Hartley. Solo se refiere a la unidad de medición
+	\item Factor de conversion de una medida de información $m->n$
+	\begin{equation}
+		\log_{n}{\frac{1}{P(si)}}=\log_{m}{\frac{1}{P(si)}}log_{n}{m}
+	\end{equation}
+	donde $\log_{m}{\frac{1}{P(si)}}$ seria la medida con la unidad actual. Por ejemplo si se tiene $3bits$ y se quiere pasar a nat
+	\begin{equation}
+		\ln{\frac{1}{P(si)}}=3\log_e{2}=2.079 nats
+	\end{equation}
+		También se puede usar la siguiente
+	\begin{equation}
+	I(s_i)=\log_{2}{M} [bit]
+\end{equation}
+
+	
+
+	
+	\item Propiedad del logaritmo
+		\begin{equation}
+		\log_a{b}=\frac{log_c{b}}{log_c{a}}
+	\end{equation}
+	\item Entropía
+	\begin{equation}
+	 	H(s)=\sum_{i=0}^{M-1}I(si)P(si)[bit/simb]
+	\end{equation}
+	Donde $I(si)$ es la cantidad de información por simbolo que se mide en nat, bit o hartley y $P(si)$ es la probabilidad del simbolo
+	\item Cantidad de simbolo por mensaje
+	\begin{equation}
+	\frac{\#simb}{msj}=R_sT_{msj}[\#simb/msj]
+	\end{equation}
+	\item Valor promedio por mensaje
+	\begin{equation}
+	 \overline{I}=\frac{\#simb}{msj}H(s)[bits/msj]
+	\end{equation}
+	 \item  Logintud media
+	 \begin{equation}
+	 	L=\sum P(xi)L_i[bit/palabra]
+	 \end{equation}
+	 Donde $L_i$ es la longitud de la palabra o simbolo y  $P(xi)$ probabilidad del simbolo o palabra
+	 \item  Señales binarias arrojadas al canal
+	 
+	 \begin{equation}
+	 	S_{arrj}=R_sL
+	 \end{equation}
+\end{enumerate}
+
+\section{Para sistemas AM}
+Consideración para AM
+\begin{enumerate}
+	\item Banda de transmisión
+	\begin{equation}
+		BW_{tx}=2B
+	\end{equation}
+\end{enumerate}
+
+
+\subsection{PWM}
+	\begin{enumerate}
+		\item Ecuación general
+		\begin{equation}
+			\tau[s]=b[s]+k[V]f(t)[s/V]
+		\end{equation}
+		Donde las unidades de $\tau$ es tiempo(s), las unidades de b igual y $f(t)$ son $s/V$ y k está en Voltios(V)
+		\item Por lo general se tiene que
+		\begin{equation}
+			\tau_g=\tau_o=T_m*5\%
+		\end{equation}
+		Donde $\tau_g$ es el tiempo de guarda y $\tau_o$
+		\item Resolución
+		\begin{equation}
+		\Delta\tau=k_f(V_R)
+		\end{equation}
+		\item Ancho de banda de transmisión
+		\begin{equation}
+			Bw_{tx}=\frac{1}{10\Delta\tau}
+		\end{equation}
+	\end{enumerate}
+	\section{x-ASFK}
+	Donde x es cualquier sistema 2ASFK,4ASFK y etc
+	\begin{enumerate}
+			\item Banda sumprimida
+		\begin{equation}
+			B'=\frac{C.C}{T_s}
+		\end{equation}
+		\item  Periodo de transferencia de simbolo para un fitro ideal
+		\begin{equation}
+			T_s=\frac{1}{2B_{filtro}}
+		\end{equation}
+		\item Transferencia de simbolos
+		\begin{equation}
+			R(si)=\frac{I(si)}{T_s}[bit/s]
+		\end{equation}
+		\item Casos dependiendo la situación
+		\begin{enumerate}
+			\item  Cuando no hay filtro
+			\begin{equation}
+				BW_{tx}=2B
+			\end{equation}
+			\item  Cuando el filtro es ideal
+			\begin{equation}
+				BW_{tx}=2B'
+			\end{equation}
+			Donde B' el ancho de banda suprimido por el filtro
+
+			\item Cuando el filtro real
+		\begin{equation}
+				\gamma =\frac{f_a}{f_c}
+			\end{equation}
+			Donde $\gamma$ es el fator de Rolloff o de caída
+			\begin{equation}
+				\frac{1}{T_s} =\frac{2B_{filtro}}{1+\gamma}
+			\end{equation}
+		
+			\end{enumerate}
+	\end{enumerate}
+\section{Ejercicios}
+\subsection{4ASK}
+Se transmite un tren de pulso en un 4ASK y se tiene que $R(si)=2Mbit/s$, $M=4$ obtenga $BW_{tx}$ para cada caso:
+\begin{enumerate}
+	\item Para un tramisión sin filtro
+	\begin{equation}
+		BW_{tx}=2B=2\infty=\infty
+	\end{equation}
+
+		\item Para un filtro ideal y un $B_{filtro}$=2C.C
+		\begin{equation}
+		I(si)=\log_{2}{4}=2
+		\end{equation}
+		Se sabe que
+		\begin{equation}
+			T_s=\frac{I(si)}{R}=\frac{2}{R}
+		\end{equation}
+		Se calcula $B'$
+		\begin{equation}
+			B'=\frac{2}{T_s}=\frac{2R}{2}=R
+		\end{equation}
+		Se calcula $Bw_{tx}$
+		\begin{equation}
+			Bw_{tx}=2B'=2(2Mbit/s)=4MHz
+		\end{equation}
+		\item Con $\gamma=0.5$ y un filtro real
+			\begin{equation}
+			I(si)=\log_{2}{4}=2
+		\end{equation}
+		Se sabe que
+		\begin{equation}
+			T_s=\frac{I(si)}{R}=\frac{2}{R}
+		\end{equation}
+		Se sabe que para un filtro real
+		\begin{equation}
+			\frac{1}{T_s}=\frac{2Bw_{filtroo}}{1+\gamma}=R
+		\end{equation}
+		Se calcula $Bw_{filtro}$
+		\begin{equation}
+		\frac{R}{2}=2B'=\frac{2Bw_{filtroo}}{1+\gamma}
+		\end{equation}
+		\begin{equation}
+			Bw_{filtro}=\frac{R(1+\gamma)}{4}=\frac{2Mbit/s*(1+0.5)}{4}=750kHz
+		\end{equation}
+		Se sabe que $Bw_{filtro}=B'$ por lo que
+		\begin{equation}
+			Bw_{tx}=2B'=1.5MHz
+		\end{equation}
+\end{enumerate}
+
+\end{document}
