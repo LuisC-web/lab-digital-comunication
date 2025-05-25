@@ -1,60 +1,31 @@
-# Archivos de respaldo y temporales
-*~
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
 *.bak
-*.tmp
-*.swp
-*.swo
-*.autosave
-
-# Archivos de configuración del proyecto (preferencia local)
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
 *.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
 
-# Archivos de simulación y salidas
-*.raw
-*.log
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
 *.csv
-*.out
-*.ac
-*.dc
-*.noise
-*.step
-*.spice
-
-# Archivos generados para fabricación
-*.gtl
-*.gbl
-*.gts
-*.gbs
-*.gto
-*.gbo
-*.gml
-*.gm1
-*.drl
-*.zip
-*.pos
-*.xln
-*.gbr
-*.ipc
-
-# Archivos de caché y rescate (ya no se usan tanto, pero por compatibilidad)
-*-cache.lib
-*-rescue.lib
-*-rescue.kicad_sym
-
-# Tablas de librerías (si son locales y no compartidas)
-sym-lib-table
-fp-lib-table
-
-# Archivos de respaldo de esquemáticos y PCB
-*.bak.kicad_sch
-*.bak.kicad_pcb
-
-# Exportaciones gráficas
-*.svg
-*.ps
-*.png
-*.jpg
-*.lck
-
-# Carpeta común de salidas de scripts o exportaciones
-/output/
