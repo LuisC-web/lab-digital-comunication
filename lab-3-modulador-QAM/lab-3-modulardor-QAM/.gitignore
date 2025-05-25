@@ -1,0 +1,60 @@
+# Archivos de respaldo y temporales
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+*.autosave
+
+# Archivos de configuración del proyecto (preferencia local)
+*.kicad_prl
+
+# Archivos de simulación y salidas
+*.raw
+*.log
+*.csv
+*.out
+*.ac
+*.dc
+*.noise
+*.step
+*.spice
+
+# Archivos generados para fabricación
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gml
+*.gm1
+*.drl
+*.zip
+*.pos
+*.xln
+*.gbr
+*.ipc
+
+# Archivos de caché y rescate (ya no se usan tanto, pero por compatibilidad)
+*-cache.lib
+*-rescue.lib
+*-rescue.kicad_sym
+
+# Tablas de librerías (si son locales y no compartidas)
+sym-lib-table
+fp-lib-table
+
+# Archivos de respaldo de esquemáticos y PCB
+*.bak.kicad_sch
+*.bak.kicad_pcb
+
+# Exportaciones gráficas
+*.svg
+*.ps
+*.png
+*.jpg
+*.lck
+
+# Carpeta común de salidas de scripts o exportaciones
+/output/
