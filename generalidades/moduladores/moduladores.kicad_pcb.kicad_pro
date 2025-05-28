@@ -188,8 +188,9 @@
       ],
       "track_widths": [
         0.0,
-        0.4,
+        0.0,
         0.6,
+        0.7,
         0.8
       ],
       "tuning_pattern_settings": {
@@ -466,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lab-3-modulardor-QAM.kicad_pro",
+    "filename": "moduladores.kicad_pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -502,7 +503,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "output",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -626,7 +627,7 @@
   },
   "sheets": [
     [
-      "be553ecb-da65-43ec-9fc5-3aeb6eae0634",
+      "3f61b9f2-8ee9-4f43-b3c7-bf3e2051e548",
       "Root"
     ]
   ],
